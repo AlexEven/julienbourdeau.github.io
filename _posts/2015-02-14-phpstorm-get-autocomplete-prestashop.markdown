@@ -13,9 +13,11 @@ tags:
 - phpstorm
 - hack
 - library
+download: https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete/archive/master.zip
+github: https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete
 ---
 
-This article is also [available in French](http://blog.julienbourdeau.com/geek/phpstorm-lautocompletion-avec-prestashop/).
+{% icon fa-flag-checkered %} This article is also [available in French](http://blog.julienbourdeau.com/geek/phpstorm-lautocompletion-avec-prestashop/).
 
 If you use PhpStorm and PrestaShop you probably noticed that you can't get your IDE to autocomplete everything.
 
@@ -44,4 +46,4 @@ class Address extends AddressCore {}
 
 ![how-to-get-phpstorm-autocomplete-prestashop](http://www.sigerr.org/wp-content/uploads/2015/02/how-to-get-phpstorm-autocomplete-prestashop.png)
 
-Find out more on Github: [](https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete)
+Find out more on Github: [https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete]()

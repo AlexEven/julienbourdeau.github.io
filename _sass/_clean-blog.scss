@@ -1,6 +1,4 @@
 body {
-  //todelete: font-family: 'Lora', 'Times New Roman', serif;
-  //todelete: font-size: 20px;
   color: #404040;
 }
 
@@ -164,13 +162,13 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $museo500FontFamily;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: $museo300FontFamily;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;

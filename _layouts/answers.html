@@ -25,7 +25,14 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                {% include page-btns.html %}
+                <h1 class="qna">Question</h1>
+
+                <blockquote>
+                    <h3>{{ page.question }}</h3>
+                    <p>{{ page.question-desc }}</p>
+                </blockquote>
+
+                <h1 class="qna">Answer</h1>
 
 				{{ content }}
 
