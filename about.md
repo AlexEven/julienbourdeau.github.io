@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About
-description: "This is what I do."
+description: This is what I do.
 permalink: /about/
-header-img: "img/about-bg.jpg"
+"header-img": "img/about-bg.jpg"
+published: true
 ---
-
 
 ## This is a title
 
