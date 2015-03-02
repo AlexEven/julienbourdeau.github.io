@@ -1,25 +1,28 @@
 ---
 layout: answers
-status: publish
-published: true
-title: 'htpasswd: cannot create file on ubuntu server (Apache2 or vsFTPd)'
-author:
-  display_name: Julien Bourdeau
-  login: julien
-  email: julien@sigerr.org
-  url: ''
-author_login: julien
-author_email: julien@sigerr.org
-wordpress_id: 359
-wordpress_url: http://sigerr.org/?post_type=answers&#038;p=359
+title: "htpasswd: cannot create file on ubuntu server (Apache2 or vsFTPd)"
+author: Julien Bourdeau
 date: '2012-12-07 21:19:45 +0100'
 date_gmt: '2012-12-07 21:19:45 +0100'
 categories: []
 tags: []
+question: "Why do I get this error: htpasswd: unable to update file /etc/vsftpd/passwd2"
+question-desc: |
+    I am setting up my FTP server and I had trouble creating virtual users. Every time I used the htpasswd command I got this error message:
+    julien@ju-server:~$ htpasswd -c /etc/vsftpd/passwd julien htpasswd: cannot create file /etc/vsftpd/passwd
 ---
-<p>I looked for a solution online, I thought it was a problem with apache2 modules or something, and I finally sorted it out myself. Get ready you will be amazed!</p>
-<p>I created the folder <strong><em>vsftpd</em></strong>, I created the empty file <strong><em>passwd.</em></strong></p>
-<pre>[cc]sudo vim /etc/vsftpd/passwd
-sudo htpasswd /etc/vsftpd/passwd julien[/cc]</pre>
-<p>If you get this error "<strong><em>htpasswd: unable to update file /etc/vsftpd/passwd</em></strong>2" it because you are missing the sudo.</p>
-<pre>[cc] sudo htpasswd /etc/vsftpd/passwd julien[/cc]</pre>
+
+I looked for a solution online, I thought it was a problem with apache2 modules or something, and I finally sorted it out myself. Get ready you will be amazed!
+
+I created the folder *vsftpd*, I created the empty file *passwd*.
+
+{% highlight sh %}
+sudo vim /etc/vsftpd/passwd
+sudo htpasswd /etc/vsftpd/passwd julien
+{% endhighlight %}
+
+If you get this error **"htpasswd: unable to update file /etc/vsftpd/passwd2"** it because you are missing the sudo.
+
+{% highlight sh %}
+sudo htpasswd /etc/vsftpd/passwd julien
+{% endhighlight %}

@@ -1,7 +1,5 @@
 ---
 layout: post
-status: publish
-published: true
 title: Setup VSFTPD with custom multiple directories and (virtual) users accounts
   on Ubuntu (no database required)
 author: Julien Bourdeau
@@ -241,7 +239,7 @@ The /var/www/$USER folder doesn't exist, create it with the correct rights (not 
 The /etc/vsftpd/ folder has to be existing, htpasswd won't create it.
 
 
-### vsftpd restart or stop error: "<em>restart: Unknown instance</em>"
+### vsftpd restart or stop error: *"restart: Unknown instance"*
 
 This means you can't start the deamon even if you have success message with /etc/init.d/vsftpd start. It doesn't start because your configuration is wrong. Start the tutorial again.
 
