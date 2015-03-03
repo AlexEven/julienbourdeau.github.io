@@ -39,7 +39,9 @@ You have to follow a specific order to open them:
 1. SetupWizard.apk
 1. com.android.vending-3.1.3-signed.apk
 
-[note_box]**Careful**: You may have a message saying that a version of the file is already installed. In this case, just click cancel and move forward.[/note_box]
+{% alert warning %}
+**Careful**: You may have a message saying that a version of the file is already installed. In this case, just click cancel and move forward.
+{% endalert %}
 
 ![](http://www.sigerr.org/wp-content/uploads/2013/09/2012-11-24-18.01.44-1024x764.jpg)
 

@@ -140,7 +140,9 @@ sudo useradd --home /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd
 You can check that it's been created with the id command: id vsftpd. We define the user with the /bin/false shell because of the [check_shell parameter](https://security.appspot.com/vsftpd/vsftpd_conf.html) (even if you don't use it).
 
 
-[info_box]When the end user  connects to the FTP server, they will be used for rights and ownership: chmod and chown.[/info_box]
+{% alert info %}
+When the end user  connects to the FTP server, they will be used for rights and ownership: chmod and chown.
+{% endalert %}
 
 
 
@@ -170,7 +172,9 @@ You need to create them with particular rights: **the root folder cannot be wri
 	* Folder **www** [ /var/www/user1/www ] => 755
 	* Folder **docs** [ /var/www/user1/docs ] => 755
 
-[note_box] Note: the user **cannot** create files or folders in the root directory.[/note_box]
+{% alert warning %}
+ Note: the user **cannot** create files or folders in the root directory.
+{% endalert %}
 
 In vsftpd.conf we have chroot_local_user=YES so the user can't see anything outside of his folder. To him, the server looks like this:
 
@@ -254,8 +258,10 @@ Here are some websites that helped me
 * <a href="http://www.benscobie.com/fixing-500-oops-vsftpd-refusing-to-run-with-writable-root-inside-chroot/">this one says something about allow_writeable_chroot but it's not in the man page</a>
 * <a href="http://ubuntuforums.org/showthread.php?t=518293">A post on this forum</a>
 
-[note_box]If you want to create some sort of symlink to let your user access somewhere outside their chroot jail use **mount --bind**
-[http://backdrift.org/how-to-use-bind-mounts-in-linux](http://backdrift.org/how-to-use-bind-mounts-in-linux) [/note_box]
+{% alert warning %}
+If you want to create some sort of symlink to let your user access somewhere outside their chroot jail use **mount --bind**
+[http://backdrift.org/how-to-use-bind-mounts-in-linux](http://backdrift.org/how-to-use-bind-mounts-in-linux) 
+{% endalert %}
 
 
 

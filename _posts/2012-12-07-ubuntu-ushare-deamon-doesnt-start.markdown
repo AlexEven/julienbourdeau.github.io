@@ -32,4 +32,9 @@ At the end the command “ushare” was still using the file in /etc/init.d/usha
 /usr/local/etc/init.d/ushare start
 {% endhighlight %}
 
+{% alert warning %}
+tests
+{% endalert %}
+
+
 Tonight all I can think about is that I didn’t uninstall ushare correctly before compiling it myself.
