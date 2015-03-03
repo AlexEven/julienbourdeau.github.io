@@ -6,6 +6,7 @@ date: '2012-12-07 19:33:30 +0100'
 date_gmt: '2012-12-07 19:33:30 +0100'
 categories: []
 tags: []
+comment: 'off'
 question: How do I start uShare Deamon (upnp player) ?
 question-desc: |
     If like me you wanted to play MP4 video with you share you probably had to compile it yourself. I followed this nice post but it didn’t work exactly like I expected.
@@ -31,10 +32,6 @@ At the end the command “ushare” was still using the file in /etc/init.d/usha
 {% highlight sh %}
 /usr/local/etc/init.d/ushare start
 {% endhighlight %}
-
-{% alert warning %}
-tests
-{% endalert %}
 
 
 Tonight all I can think about is that I didn’t uninstall ushare correctly before compiling it myself.

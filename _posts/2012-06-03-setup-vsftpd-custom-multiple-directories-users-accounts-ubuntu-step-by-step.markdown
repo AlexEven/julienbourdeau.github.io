@@ -17,8 +17,6 @@ tags:
 - tutorial
 ---
 
-Icon Camera Retro : {% icon fa-camera-retro %}
-
 I wanted to install an FTP server on my servers, I checked online and it turned out that VSFTPD is the most secure one, so I began to installing it.
 
 

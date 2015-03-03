@@ -1,0 +1,7 @@
+{% if page.date %}
+	<span class="meta">{% icon fa-calendar %}&nbsp; {{ page.date | date: "%B %-d, %Y" }}</span><br />
+{% endif %}
+
+{% if page.author %}
+	<span class="meta">{% icon fa-user %}&nbsp; By {{ page.author }}</span><br />
+{% endif %} 
