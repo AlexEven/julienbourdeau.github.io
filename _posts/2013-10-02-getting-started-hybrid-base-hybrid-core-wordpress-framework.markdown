@@ -4,6 +4,7 @@ title: Getting started with Hybrid Base and Hybrid Core (Wordpress Framework)
 author: Julien Bourdeau
 date: '2013-10-02 11:41:33 +0200'
 date_gmt: '2013-10-02 09:41:33 +0200'
+header-img: "assets/images/headers/framework-writer.jpg"
 categories:
 - Wordpress
 tags:
