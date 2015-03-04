@@ -4,4 +4,8 @@
 
 {% if page.author %}
 	<span class="meta">{% icon fa-user %}&nbsp; By {{ page.author }}</span><br />
-{% endif %} 
+{% endif %}
+
+{% if page.french %}
+	<span class="meta">{% icon fa-flag-checkered %}&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br />
+{% endif %}

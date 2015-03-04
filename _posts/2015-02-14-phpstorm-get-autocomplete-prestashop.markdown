@@ -15,9 +15,8 @@ tags:
 - library
 download: https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete/archive/master.zip
 github: https://github.com/julienbourdeau/PhpStorm-PrestaShop-Autocomplete
+french: "http://blog.julienbourdeau.com/geek/phpstorm-lautocompletion-avec-prestashop/"
 ---
-
-{% icon fa-flag-checkered %} This article is also [available in French](http://blog.julienbourdeau.com/geek/phpstorm-lautocompletion-avec-prestashop/).
 
 If you use PhpStorm and PrestaShop you probably noticed that you can't get your IDE to autocomplete everything.
 
