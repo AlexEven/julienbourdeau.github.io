@@ -27,7 +27,7 @@ Before I start coding, I want to make sure that I'm going down the right road. D
 
 ### Hybrid Core
 
-![](http://www.sigerr.org/wp-content/uploads/2013/10/hybrid-core-logo-300x200.png)
+![](/assets/images/content/2013/hybrid-core-logo-300x200.png)
 
 **Hybrid Core** is a proper framework: set of modular PHP scripts to aid in the development of WordPress themes. Like they say on the web page, **Hybrid is NOT a theme**, you cannot expect it to work straight away. There isn't any index.php or single.php in the folder, only one hybrid.php.
 
@@ -47,7 +47,7 @@ _Example of features_:
 
 ### Hybrid Base
 
-![](http://www.sigerr.org/wp-content/uploads/2013/10/hybrid-base-screenshot-300x200.png)
+![](/assets/images/content/2013/hybrid-base-screenshot-300x200.png)
 
 Hybrid Base is a starter theme based on Hybrid Core. It will provide every file you need; the markup and loops are ready to use. Hybrid base defines many post formats: aside, audio, chat, image, gallery, link, quote, status and video.
 
@@ -71,7 +71,7 @@ Underscores is very similar to Hybrid Base but after using it, I feel like there
 [button link="https://github.com/automattic/_s" text="Github" size="large" type="" icon="wrench" white=""]
 [button link="https://github.com/Automattic/_s/archive/master.zip" text="Download" size="large" type="" icon="file" white=""]
 
-![The first thing you get with your started theme (_s or Hybrid Base)](http://www.sigerr.org/wp-content/uploads/2013/10/La_Boucherie_Bio__Un_site_utilisant_WordPress-680x371.png)
+![The first thing you get with your started theme (_s or Hybrid Base)](/assets/images/content/2013/La_Boucherie_Bio__Un_site_utilisant_WordPress-680x371.png)
 
 The first thing you get with your started theme (_s or Hybrid Base)[/caption]
 
@@ -111,7 +111,7 @@ git submodule update[/cc_bash]
 
 You should get something like that:
 
-![This is what you should get (screenshot)](http://www.sigerr.org/wp-content/uploads/2013/10/1.___Sites_laboucheriebio.com_wp-content_themes_hybrid-base__zsh_.png)
+![This is what you should get (screenshot)](/assets/images/content/2013/1.___Sites_laboucheriebio.com_wp-content_themes_hybrid-base__zsh_.png)
 
 ### Method 2: Copy and paste files then create submodules
 
@@ -133,7 +133,7 @@ git submodule add _https://github.com/justintadlock/hybrid-core.git_ library[/cc
 
 You should get something like this:
 
-![git submodules hybrid core screeshot](http://www.sigerr.org/wp-content/uploads/2013/10/git-submodules-hybrid-core-screeshot.png)
+![git submodules hybrid core screeshot](/assets/images/content/2013/git-submodules-hybrid-core-screeshot.png)
 
 That's it, you can start hacking your theme !
 

@@ -4,6 +4,7 @@ email: julien@sigerr.org
 description: "Thoughts. Snippets. Life."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sigerr.org" # the base hostname & protocol for your site
+
 header-img: "assets/images/theme/home.jpg"
 twitter_username: julienbourdeau
 github_username:  julienbourdeau

@@ -6,7 +6,7 @@ date: '2013-09-29 19:13:55 +0200'
 date_gmt: '2013-09-29 17:13:55 +0200'
 categories: []
 tags: []
-download: http://www.sigerr.org/wp-content/uploads/2013/09/Android_Market_Google_Play_-_MPMAN_MID7127.zip
+download: /assets/images/content/2013/Android_Market_Google_Play_-_MPMAN_MID7127.zip
 question: How to install Google play (ex Android Market) on MPMAN Tablet
 question-desc: |
     I have a cheap Android tablet, an MPMAN MID74C. The problem is: it doesn't come with Android Market, I mean Google Play now. Instead of Google Play, MPMAN chose to pre-install GetJar.
@@ -43,7 +43,7 @@ You have to follow a specific order to open them:
 **Careful**: You may have a message saying that a version of the file is already installed. In this case, just click cancel and move forward.
 {% endalert %}
 
-![](http://www.sigerr.org/wp-content/uploads/2013/09/2012-11-24-18.01.44-1024x764.jpg)
+![](/assets/images/content/2013/2012-11-24-18.01.44-1024x764.jpg)
 
-![](http://www.sigerr.org/wp-content/uploads/2013/09/2012-11-24-18.01.58-1024x764.jpg)
+![](/assets/images/content/2013/2012-11-24-18.01.58-1024x764.jpg)
 

@@ -85,7 +85,7 @@ guest_username=vsftpd
 To register a user you use htpasswd, so I assume you have apache2 working on your server. Create a vsftpd folder then put configuration files in it.
 
 {% highlight sh %}
-sudo mkdir /etc/vsftpd 
+sudo mkdir /etc/vsftpd
 {% endhighlight %}
 
 then
@@ -111,13 +111,13 @@ sudo htpasswd -d /etc/vsftpd/ftpd.passwd user2
 Again, you need to back up the orignal file
 
 {% highlight sh %}
-sudo mv /etc/pam.d/vsftpd /etc/pam.d/vsftpd.bak 
+sudo mv /etc/pam.d/vsftpd /etc/pam.d/vsftpd.bak
 {% endhighlight %}
 
 and create a new one
 
 {% highlight sh %}
-sudo vim /etc/pam.d/vsftpd 
+sudo vim /etc/pam.d/vsftpd
 {% endhighlight %}
 
 Copy and paste these 2 lines (this should be the only content). I insist only these 2 lines, I wasted a lot of time keeping the originals and just added these.
@@ -132,7 +132,7 @@ account required pam_permit.so
 ## 5. Create a local user without shell access
 
 {% highlight sh %}
-sudo useradd --home /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd 
+sudo useradd --home /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd
 {% endhighlight %}
 
 You can check that it's been created with the id command: id vsftpd. We define the user with the /bin/false shell because of the [check_shell parameter](https://security.appspot.com/vsftpd/vsftpd_conf.html) (even if you don't use it).
@@ -149,13 +149,13 @@ When the end user  connects to the FTP server, they will be used for rights and
 The common way is using init.d like all deamon
 
 {% highlight sh %}
-sudo /etc/init.d/vsftpd restart 
+sudo /etc/init.d/vsftpd restart
 {% endhighlight %}
 
 In Ubuntu 12.04 there is something new with services. It worked on my 12.04 but not on my 10.04 one. To be honest I'm not a Linux expert (yet) so I can't explain why. Something to do with *Upstart* I think.
 
 {% highlight sh %}
-sudo service vsftpd restart 
+sudo service vsftpd restart
 {% endhighlight %}
 
 
@@ -176,7 +176,7 @@ You need to create them with particular rights: **the root folder cannot be wri
 
 In vsftpd.conf we have chroot_local_user=YES so the user can't see anything outside of his folder. To him, the server looks like this:
 
-![login ftp vsftpd chroot](http://sigerr.org/wp-content/uploads/2012/06/login-ftp-vsftpd-chroot-680x428.jpg)
+![login ftp vsftpd chroot](/assets/images/content/2012/login-ftp-vsftpd-chroot-680x428.jpg)
 
 So just run these commands:
 
@@ -185,7 +185,7 @@ mkdir /var/www/user1
 chmod -w /var/www/user1
 mkdir www/user1/www
 chmod -R 755 /var/www/user1/www
-chown -R vsftpd:nogroup /var/www/user1 
+chown -R vsftpd:nogroup /var/www/user1
 {% endhighlight %}
 
 The */var/www/user1* folder HAS TO exist or connection will fail.

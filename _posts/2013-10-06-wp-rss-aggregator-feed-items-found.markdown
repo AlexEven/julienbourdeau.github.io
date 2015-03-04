@@ -19,7 +19,7 @@ After spending hours looking deep into the plugin I realized that the links were
 
 It is really hard to see because in the admin page you can still see the link and it works if you click on it (cf. screenshot)
 
-![wp-rss-aggregator-No-feed-items-found](http://www.sigerr.org/wp-content/uploads/2013/10/wp-rss-aggregator-No-feed-items-found.png)
+![wp-rss-aggregator-No-feed-items-found](/assets/images/content/2013/wp-rss-aggregator-No-feed-items-found.png)
 
 I think some function striped the //, so possibly it could happen again.
 
