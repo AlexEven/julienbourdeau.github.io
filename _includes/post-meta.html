@@ -1,11 +1,17 @@
-{% if page.date %}
-	<span class="meta">{% icon fa-calendar %}&nbsp; {{ page.date | date: "%B %-d, %Y" }}</span><br />
-{% endif %}
+{% if page.date || page.author || page.french %}
 
-{% if page.author %}
-	<span class="meta">{% icon fa-user %}&nbsp; By {{ page.author }}</span><br />
-{% endif %}
+<div class="article-meta">
+	{% if page.date %}
+		<span class="meta">{% icon fa-calendar %}&nbsp; {{ page.date | date: "%B %-d, %Y" }}</span><br />
+	{% endif %}
 
-{% if page.french %}
-	<span class="meta">{% icon fa-flag-checkered %}&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br />
+	{% if page.author %}
+		<span class="meta">{% icon fa-user %}&nbsp; By {{ page.author }}</span><br />
+	{% endif %}
+
+	{% if page.french %}
+		<span class="meta">{% icon fa-flag-checkered %}&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br />
+	{% endif %}
+</div>
+
 {% endif %}

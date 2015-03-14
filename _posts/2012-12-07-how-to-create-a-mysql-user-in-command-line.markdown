@@ -2,6 +2,7 @@
 layout: answers
 title: How to create (add new) a MySQL user in command line
 author: Julien Bourdeau
+icon: fa-database
 date: '2012-12-07 21:28:53 +0100'
 date_gmt: '2012-12-07 21:28:53 +0100'
 categories: []

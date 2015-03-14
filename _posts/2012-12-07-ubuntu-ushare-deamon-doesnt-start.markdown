@@ -1,6 +1,7 @@
 ---
 layout: answers
 title: "[Ubuntu] uShare Deamon doesn’t start"
+icon: fa-linux
 author: Julien Bourdeau
 date: '2012-12-07 19:33:30 +0100'
 date_gmt: '2012-12-07 19:33:30 +0100'

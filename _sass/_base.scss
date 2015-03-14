@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-image: url($thm-img-path + "/bg-dots.png");
     -webkit-text-size-adjust: 100%;
 }
 
@@ -44,7 +44,8 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-.fa {
+
+.article-meta .fa {
     width: 20px;
     text-align: center;
 }
@@ -74,6 +75,23 @@ li {
     > ul,
     > ol {
          margin-bottom: 0;
+    }
+}
+
+ul.article-list {
+    list-style-type: none;
+    li {
+        margin: 16px 0;
+        font-size: 140%;
+        i.fa {
+            margin-right: 4px;
+        }
+        a {
+            color: $text-color;
+        }
+        a:hover {
+            text-decoration: none;
+        }
     }
 }
 
@@ -180,28 +198,16 @@ pre {
 }
 
 
-
 /**
- * Wrapper
+ * Footer
  */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+footer#footer {
+    margin-top: 54px;
+    border-top: 1px solid $grey-color-light;
+    a {
+        color: $text-color;
     }
 }
-
-
 
 /**
  * Clearfix
