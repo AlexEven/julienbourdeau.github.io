@@ -4,3 +4,4 @@ _site
 _bower_components
 .sass-cache
 _gist_cache
+_data/external_posts.json

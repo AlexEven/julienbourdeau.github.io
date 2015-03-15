@@ -1,0 +1,24 @@
+<div class="external-posts">
+	
+	<ul class="article-list external-article-list">
+		{% for doc in site.data.external_posts.value.items limit:8 %}
+			<li>
+				{% assign link = doc.["y:id"].value %}
+				
+				{% if link contains 'blog.julienbourdeau.com' %}
+					<span class="flag flag-fr"></span>
+				{% elsif link contains 'travel.julienbourdeau.com' %}
+					<span class="flag flag-gb"></span>
+					<span class="flag flag-fr"></span>
+				{% elsif link contains 'sigerr.org' %}
+					<span class="flag flag-gb"></span>
+				{% endif %}
+
+				<a href="{{ link }}">
+					{{ doc.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+</div>
