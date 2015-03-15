@@ -1,4 +1,6 @@
 .DS_Store
+Gemfile.lock
 _site
 _bower_components
 .sass-cache
+_gist_cache
