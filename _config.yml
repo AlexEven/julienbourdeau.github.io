@@ -2,8 +2,8 @@
 title: Sigerr
 email: julien@sigerr.org
 description: "Thoughts. Snippets. Life."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.sigerr.org" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://www.sigerr.org"
 
 header-img: "assets/images/theme/home.jpg"
 google-analytics: "UA-13064797-1"
@@ -16,7 +16,7 @@ youtube_username:  julienbourdeau
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: pretty
+permalink: /:categories/:title.html
 paginate: 5
 paginate_path: "/page:num/"
 
