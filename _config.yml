@@ -16,7 +16,7 @@ youtube_username:  julienbourdeau
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: /:categories/:title.html
+permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
 
