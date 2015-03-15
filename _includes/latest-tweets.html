@@ -1,0 +1,20 @@
+<div class="widget_twitter">
+	
+	<ul class="">
+		{% for doc in site.data.latest_tweets limit:3 %}
+			<li>
+				<span class="entry-content">
+					{{ doc.text }}
+				</span>
+				<span class="entry-meta">
+					<span class="time-meta">
+						<a href="http://twitter.com/julienbourdeau/statuses/{{ doc.id_str }}" target="_blank">
+							{{ doc.created_at | timeago }}
+						</a>
+					</span>
+				</span>
+			</li>
+		{% endfor %}
+	</ul>
+
+</div>
