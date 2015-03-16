@@ -19,7 +19,9 @@ I haven't developed any Wordpress themes for a while, **for most websites I now 
 
 Today on ThemeForest I couldn't find any Wordpress themes that would fit my needs, so I'm gonna code it from an HTML theme. Yeah, I'm not an artist , I have to face facts.
 
-[alert type="info" closable="1"]You can skip the first part and go straight to "**[Getting Started with Hybrid Base](#getting-started-with-hybrid-base)**" [/alert]
+{% alert info %}
+You can skip the first part and go straight to Getting Started with Hybrid Base.
+{% endalert %}
 
 ## Hybrid Core, Hybrid Base or Underscores (_s) ?
 
@@ -41,9 +43,20 @@ _Example of features_:
 
 **Hybrid is free but the support and doc are paid**, you need to be a member of the Club. It's only $29 a year so if you are a beginner I think it is worth it.
 
-[button link="http://themehybrid.com/hybrid-core" text="Homepage" size="large" type="" icon="home" white=""]
-[button link="https://github.com/justintadlock/hybrid-core" text="Github" size="large" type="" icon="wrench" white=""]
-[button link="https://github.com/justintadlock/hybrid-core/archive/master.zip" text="Download" size="large" type="" icon="file" white=""]
+<div style="text-align:center;">
+	<a class="btn btn-primary" href="http://themehybrid.com/hybrid-core">
+		<i class="fa fa-home"></i>
+		Homepage
+	</a>
+	<a class="btn btn-danger" href="https://github.com/justintadlock/hybrid-core">
+		<i class="fa fa-github"></i>
+		Github
+	</a>
+	<a class="btn btn-warning" href="https://github.com/justintadlock/hybrid-core/archive/master.zip">
+		<i class="fa fa-file"></i>
+		Download
+	</a>
+</div>
 
 ### Hybrid Base
 
@@ -55,9 +68,20 @@ The point with Hybrid base is that you can really focus on the style. The style.
 
 Hybrid Base cannot work with Hybrid Core but I'll get into that in the next part.
 
-[button link="http://themehybrid.com/themes/hybrid-base" text="Homepage" size="large" type="" icon="home" white=""]
-[button link="https://github.com/justintadlock/hybrid-base" text="Github" size="large" type="" icon="wrench" white=""]
-[button link="https://github.com/justintadlock/hybrid-base/archive/master.zip" text="Download" size="large" type="" icon="file" white=""]
+<div style="text-align:center;">
+	<a class="btn btn-primary" href="http://themehybrid.com/themes/hybrid-base">
+		<i class="fa fa-home"></i>
+		Homepage
+	</a>
+	<a class="btn btn-danger" href="https://github.com/justintadlock/hybrid-base">
+		<i class="fa fa-github"></i>
+		Github
+	</a>
+	<a class="btn btn-warning" href="https://github.com/justintadlock/hybrid-base/archive/master.zip">
+		<i class="fa fa-file"></i>
+		Download
+	</a>
+</div>
 
 ### _s
 
@@ -67,9 +91,20 @@ _s is another starter theme. It's created by Automatic and Ian Stewart, who also
 
 Underscores is very similar to Hybrid Base but after using it, I feel like there are less features. The website lets you define a name for your project before you download the theme, it will prefix and rename every function (replacing "_S", "_S_", "_s_" with your defined name). It's worth trying !
 
-[button link="http://underscores.me/" text="Homepage" size="large" type="" icon="home" white=""]
-[button link="https://github.com/automattic/_s" text="Github" size="large" type="" icon="wrench" white=""]
-[button link="https://github.com/Automattic/_s/archive/master.zip" text="Download" size="large" type="" icon="file" white=""]
+<div style="text-align:center;">
+	<a class="btn btn-primary" href="http://underscores.me/">
+		<i class="fa fa-home"></i>
+		Homepage
+	</a>
+	<a class="btn btn-danger" href="https://github.com/automattic/_s">
+		<i class="fa fa-github"></i>
+		Github
+	</a>
+	<a class="btn btn-warning" href="https://github.com/Automattic/_s/archive/master.zip">
+		<i class="fa fa-file"></i>
+		Download
+	</a>
+</div>
 
 ![The first thing you get with your started theme (_s or Hybrid Base)](/assets/images/content/2013/La_Boucherie_Bio__Un_site_utilisant_WordPress-680x371.png)
 
