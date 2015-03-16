@@ -1,17 +1,3 @@
-body {
-  color: #404040;
-}
-
-p a {
-  text-decoration: underline;
-}
-a {
-  color: #404040;
-}
-a:hover,
-a:focus {
-  color: #0085a1;
-}
 
 hr.small {
   max-width: 100px;
@@ -162,13 +148,13 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: $museo500FontFamily;
+  font-family: $strong-font-family;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: $museo300FontFamily;
+  font-family: $base-font-family;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;

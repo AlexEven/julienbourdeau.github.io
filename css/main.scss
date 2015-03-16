@@ -6,13 +6,14 @@
 $thm-img-path: '../assets/images/theme';
 $thm-fonts-path: '../assets/fonts';
 
-$museo300FontFamily:	"Museo-300", Georgia, "Times New Roman", Times, serif;
-$museo500FontFamily:	"Museo-500", Georgia, "Times New Roman", Times, serif;
-$museo700FontFamily:	"Museo-700", Georgia, "Times New Roman", Times, serif;
+$museo300:  "Museo-300", Georgia, "Times New Roman", Times, serif;
+$museo500:  "Museo-500", Georgia, "Times New Roman", Times, serif;
+$museo700:  "Museo-700", Georgia, "Times New Roman", Times, serif;
 
 
 // Our variables
-$base-font-family: $museo300FontFamily;
+$base-font-family: $museo300;
+$strong-font-family: $museo500;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
