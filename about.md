@@ -3,7 +3,7 @@ layout: page
 title: About
 description: This is what I do.
 permalink: /about/
-"header-img": "img/about-bg.jpg"
+"header-img": "assets/images/headers/about-bg.jpg"
 published: true
 ---
 
