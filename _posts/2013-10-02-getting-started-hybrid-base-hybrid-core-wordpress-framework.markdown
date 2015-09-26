@@ -19,9 +19,9 @@ I haven't developed any Wordpress themes for a while, **for most websites I now 
 
 Today on ThemeForest I couldn't find any Wordpress themes that would fit my needs, so I'm gonna code it from an HTML theme. Yeah, I'm not an artist , I have to face facts.
 
-{% alert info %}
+<div class='alert alert-info'>
 You can skip the first part and go straight to Getting Started with Hybrid Base.
-{% endalert %}
+</div>
 
 ## Hybrid Core, Hybrid Base or Underscores (_s) ?
 
@@ -122,14 +122,16 @@ Anyway, you shouldn't create a child theme unless you just want to override some
 
 Now that we chose to use Hybrid Base, let's get into it.
 
-[alert type="warning" closable="0"]I assume that you have basic knowledge about Git. You have it installed and you know what it is for.[/alert]
+<div class='alert alert-warning'>
+I assume that you have basic knowledge about Git. You have it installed and you know what it is for.
+</div>
 
 ### Method 1: Clone from Github
 
 The easiest way. In your terminal, navigate to wp-content/themes/ and clone the repo.
 
 {% highlight sh %}
-git clone https://github.com/justintadlock/hybrid-base.git[/cc_bash]
+git clone https://github.com/justintadlock/hybrid-base.git
 {% endhighlight %}
 
 This is not ready yet, the Library folder is empty. It is where you are meant to copy Hybrid Core. Like I said before, Hybrid Base does not work without Hybrid Core. Luckily Git has a feature call submodules. [Submodules](http://git-scm.com/book/en/Git-Tools-Submodules) let you clone a repo inside a cloned repo.
@@ -137,7 +139,7 @@ This is not ready yet, the Library folder is empty. It is where you are meant to
 [icon icon="book" white=""] So we cloned Hybrid Base into the *hybrid-base* folder, we will now clone Hybrid Core into the *hybrid-base/library* folder, using *git submodule*.
 
 {% highlight sh %}
-git submodule init[/cc_bash]
+git submodule init
 {% endhighlight %}
 
 {% highlight sh %}
