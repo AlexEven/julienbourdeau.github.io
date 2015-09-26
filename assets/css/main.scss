@@ -1,0 +1,115 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$thm-img-path: '../images/theme';
+$thm-fonts-path: '../fonts';
+
+$museo300:  "Museo-300", Georgia, "Times New Roman", Times, serif;
+$museo500:  "Museo-500", Georgia, "Times New Roman", Times, serif;
+$museo700:  "Museo-700", Georgia, "Times New Roman", Times, serif;
+
+
+// Our variables
+$base-font-family: $museo300;
+$strong-font-family: $museo500;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$mobile:           600px;
+$laptop:           800px;
+
+
+// Using media queries with like this:
+// @include media-query($mobile) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+	@media screen and (max-width: $device) {
+		@content;
+	}
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"fonts",
+	"fontawesome/font-awesome",
+
+	// Core variables and mixins
+	"bootstrap/variables",
+	"bootstrap/mixins",
+
+	// Reset and dependencies
+	"bootstrap/normalize",
+	"bootstrap/print",
+	//"bootstrap/glyphicons",
+
+	// Core CSS
+	"bootstrap/scaffolding",
+	"bootstrap/type",
+	//"bootstrap/code",
+	"bootstrap/grid",
+	"bootstrap/tables",
+	"bootstrap/forms",
+	"bootstrap/buttons",
+
+	// Components
+	"bootstrap/component-animations",
+	//"bootstrap/dropdowns",
+	"bootstrap/button-groups",
+	"bootstrap/input-groups",
+	"bootstrap/navs",
+	"bootstrap/navbar",
+	//"bootstrap/breadcrumbs",
+	"bootstrap/pagination",
+	"bootstrap/pager",
+	"bootstrap/labels",
+	"bootstrap/badges",
+	"bootstrap/jumbotron",
+	"bootstrap/thumbnails",
+	"bootstrap/alerts",
+	//"bootstrap/progress-bars",
+	//"bootstrap/media",
+	"bootstrap/list-group",
+	//"bootstrap/panels",
+	"bootstrap/responsive-embed",
+	//"bootstrap/wells",
+	"bootstrap/close",
+
+	// Components w/ JavaScript
+	"bootstrap/modals",
+	"bootstrap/tooltip",
+	"bootstrap/popovers",
+	//"bootstrap/carousel",
+
+	// Utility classes
+	"bootstrap/utilities",
+	"bootstrap/responsive-utilities",
+
+	//"layout",
+	"flags",
+	"clean-blog",
+	"syntax-highlighting",
+	"base"
+;
+
+

@@ -1,9 +1,6 @@
 .DS_Store
-Gemfile.lock
 _site
-_bower_components
+bower_components
 .sass-cache
 .tweet-cache
 _gist_cache
-_data/external_posts.json
-_data/latest_tweets.json

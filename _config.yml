@@ -20,10 +20,14 @@ permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
 
-exclude: ['README.md']
+exclude: ['README.md', "bower_components", "bower.json"]
 
 sass:
     load_paths:
         - _sass
-        - _bower_components
     style: compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-mentions
