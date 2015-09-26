@@ -20,7 +20,7 @@ permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
 
-exclude: ['README.md', "bower_components", "bower.json", "CNAME"]
+exclude: ['README.md', "bower_components", "bower.json", "CNAME", "Gemfile", "Gemfile.lock"]
 
 sass:
     load_paths:
