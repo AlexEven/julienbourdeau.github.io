@@ -4,25 +4,37 @@ title: Articles
 permalink: /articles/
 ---
 
-{% for year in site.years %}
-    <h2>{{ year.first.first.date | date: "%Y" }}</h2>
-    {% for month in year %}
-        <ul class="article-list">
-            {% for post in month %}
-                <li>
-                    {% if post.icon %}
-                        <i class="fa {{ post.icon }}"></i>
-                    {% else %}
-                        {% if post.layout == 'post' %}
-                            <i class="fa fa-coffee"></i>
-                        {% else %}
-                            <i class="fa fa-life-ring"></i>
-                        {% endif %}
-                    {% endif %}
+{% for post in site.posts  %}
+	{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+	{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-                    <a href="{{ post.url}}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
+	{% if forloop.first %}
+	<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+	<ul class="article-list">
+	{% endif %}
+
+	<li>
+		{% if post.icon %}
+			<i class="fa {{ post.icon }}"></i>
+		{% else %}
+			{% if post.layout == 'post' %}
+				<i class="fa fa-coffee"></i>
+			{% else %}
+				<i class="fa fa-life-ring"></i>
+			{% endif %}
+		{% endif %}
+
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+
+	{% if forloop.last %}
+	</ul>
+	{% else %}
+		{% if this_year != next_year %}
+		</ul>
+		<h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+		<ul class="article-list">
+		{% endif %}
+	{% endif %}
 {% endfor %}
+
