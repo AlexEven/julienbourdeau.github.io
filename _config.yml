@@ -26,3 +26,6 @@ sass:
     load_paths:
         - _sass
     style: compressed
+
+gems:
+  - jekyll-feed
