@@ -1,4 +1,4 @@
-{% if page.date || page.author || page.french %}
+{% if page.date || page.author || page.french || page.credits %}
 
 <div class="article-meta">
 	{% if page.date %}
@@ -11,6 +11,12 @@
 
 	{% if page.french %}
 		<span class="meta"><i class="fa fa-flag-checkered"></i>&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br />
+	{% endif %}
+
+	{% if page.credits %}
+		{% for c in page.credits %}
+			<i class="fa fa-magic"></i> Photo by: <a href="{{ c.url }}">{{ c.name }}</a>
+		{% endfor %}
 	{% endif %}
 </div>
 
