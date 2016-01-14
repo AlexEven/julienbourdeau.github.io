@@ -2,8 +2,8 @@
   "name": "sigerr2",
   "version": "0.0.0",
   "dependencies": {
-    "fontawesome": "~4.4.0",
-    "bootstrap-sass": "~3.3.5"
+    "fontawesome": "^4.4.0",
+    "bootstrap-sass": "^3.3.5"
   },
   "devDependencies": {}
 }
