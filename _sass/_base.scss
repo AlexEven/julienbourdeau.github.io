@@ -121,14 +121,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.qna {
-    text-align: center; 
+    text-align: center;
 }
 h1.qna,
 h2 {
     margin-top: 54px;
 }
 h3 {
-    margin-top: 38px; 
+    margin-top: 38px;
 }
 h4 {
     margin-top: 21px;
@@ -284,4 +284,19 @@ footer#footer {
     a {
         margin: 16px 0;
     }
+}
+
+.thumbnail {
+  background: transparent;
+  border: none;
+  .caption {
+    padding: 0 18px;
+  }
+  ul, h4 {
+    text-align: left;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
 }

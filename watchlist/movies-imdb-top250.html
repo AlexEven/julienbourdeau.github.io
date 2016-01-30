@@ -1,0 +1,33 @@
+---
+layout: page
+title: IMDB Top 250
+description: Movies I watched or need to watch
+permalink: /watchlist/movies-imdb-top250/
+"header-img": "assets/images/headers/top250.jpg"
+credits:
+  - name: manfredi90
+    url: "https://www.flickr.com/photos/manfredi90/7644235724/"
+---
+
+<p></p>
+
+<div class="row">
+{% for movie in site.data.top250movies.data.movies %}
+
+  <div class="col-sm-12 col-md-4">
+    <div class="thumbnail {% if movie.watched %}watched{% endif %}">
+      <img src="{{ movie.urlPoster }}" alt="{{ movie.title }}">
+      <div class="caption">
+        <h4>{{ movie.title }}</h4>
+        <ul>
+					<li><i class="fa fa-calendar-o"></i> {{ movie.year }}</li>
+        	<li><i class="fa fa-clock-o"></i> {{ movie.runtime }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+	{% cycle '', '', '<hr style="clear:both; margin: 45px 36px;">' %}
+
+{% endfor%}
+</div>
