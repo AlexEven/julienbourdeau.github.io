@@ -2,7 +2,7 @@
   "data": {
     "movies": [
       {
-        "watched": false,
+        "watched": true,
         "title": "The Shawshank Redemption ",
         "originalTitle": "",
         "year": "1994",
@@ -166,7 +166,7 @@
         "ranking": 3
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Dark Knight ",
         "originalTitle": "",
         "year": "2008",
@@ -221,7 +221,7 @@
         "ranking": 4
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Pulp Fiction ",
         "originalTitle": "",
         "year": "1994",
@@ -382,7 +382,7 @@
         "ranking": 7
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Lord of the Rings: The Return of the King ",
         "originalTitle": "",
         "year": "2003",
@@ -495,7 +495,7 @@
         "ranking": 9
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Fight Club ",
         "originalTitle": "",
         "year": "1999",
@@ -548,7 +548,7 @@
         "ranking": 10
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Lord of the Rings: The Fellowship of the Ring ",
         "originalTitle": "",
         "year": "2001",
@@ -604,7 +604,7 @@
         "ranking": 11
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Star Wars: Episode V - The Empire Strikes Back ",
         "originalTitle": "",
         "year": "1980",
