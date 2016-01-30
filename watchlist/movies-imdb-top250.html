@@ -15,10 +15,15 @@ credits:
 {% for movie in site.data.top250movies.data.movies %}
 
   <div class="col-sm-12 col-md-4">
-    <div class="thumbnail {% if movie.watched %}watched{% endif %}">
+    <div class="thumbnail{% if movie.watched %} watched{% endif %}">
       <img src="{{ movie.urlPoster }}" alt="{{ movie.title }}">
       <div class="caption">
-        <h4>{{ movie.title }}</h4>
+        <h4>
+          {{ movie.title }}
+          {% if movie.watched %}
+            <span class="label label-success"><i class="fa fa-check"></i> watched</span>
+          {% endif %}
+        </h4>
         <ul>
 					<li><i class="fa fa-calendar-o"></i> {{ movie.year }}</li>
         	<li><i class="fa fa-clock-o"></i> {{ movie.runtime }}</li>
