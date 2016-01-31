@@ -658,7 +658,7 @@
         "ranking": 12
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Forrest Gump ",
         "originalTitle": "",
         "year": "1994",
@@ -814,7 +814,7 @@
         "ranking": 15
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Lord of the Rings: The Two Towers ",
         "originalTitle": "",
         "year": "2002",
@@ -927,7 +927,7 @@
         "ranking": 17
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Matrix ",
         "originalTitle": "",
         "year": "1999",
@@ -1035,7 +1035,7 @@
         "ranking": 19
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Star Wars: Episode IV - A New Hope ",
         "originalTitle": "Star Wars",
         "year": "1977",
@@ -1084,7 +1084,7 @@
         "ranking": 20
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "City of God ",
         "originalTitle": "Cidade de Deus",
         "year": "2002",
@@ -1142,7 +1142,7 @@
         "ranking": 21
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Se7en ",
         "originalTitle": "",
         "year": "1995",
@@ -1193,7 +1193,7 @@
         "ranking": 22
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Silence of the Lambs ",
         "originalTitle": "",
         "year": "1991",
@@ -1246,7 +1246,7 @@
         "ranking": 23
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Usual Suspects ",
         "originalTitle": "",
         "year": "1995",
@@ -1407,7 +1407,7 @@
         "ranking": 26
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Léon: The Professional ",
         "originalTitle": "Léon",
         "year": "1994",
@@ -1560,7 +1560,7 @@
         "ranking": 29
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Interstellar ",
         "originalTitle": "",
         "year": "2014",
@@ -1614,7 +1614,7 @@
         "ranking": 30
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Saving Private Ryan ",
         "originalTitle": "",
         "year": "1998",
@@ -1722,7 +1722,7 @@
         "ranking": 32
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "American History X ",
         "originalTitle": "",
         "year": "1998",
@@ -1878,7 +1878,7 @@
         "ranking": 35
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Raiders of the Lost Ark ",
         "originalTitle": "",
         "year": "1981",
@@ -1990,7 +1990,7 @@
         "ranking": 37
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Intouchables ",
         "originalTitle": "Intouchables",
         "year": "2011",
@@ -2096,7 +2096,7 @@
         "ranking": 39
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Green Mile ",
         "originalTitle": "",
         "year": "1999",
@@ -2151,7 +2151,7 @@
         "ranking": 40
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Terminator 2: Judgment Day ",
         "originalTitle": "",
         "year": "1991",
@@ -2261,7 +2261,7 @@
         "ranking": 42
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Departed ",
         "originalTitle": "",
         "year": "2006",
@@ -2365,7 +2365,7 @@
         "ranking": 44
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Back to the Future ",
         "originalTitle": "",
         "year": "1985",
@@ -2472,7 +2472,7 @@
         "ranking": 46
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Gladiator ",
         "originalTitle": "",
         "year": "2000",
@@ -2524,7 +2524,7 @@
         "ranking": 47
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Apocalypse Now ",
         "originalTitle": "",
         "year": "1979",
@@ -2739,7 +2739,7 @@
         "ranking": 51
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Lion King ",
         "originalTitle": "",
         "year": "1994",
@@ -2802,7 +2802,7 @@
         "ranking": 52
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Alien ",
         "originalTitle": "",
         "year": "1979",
@@ -3010,7 +3010,7 @@
         "ranking": 56
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Django Unchained ",
         "originalTitle": "",
         "year": "2012",
@@ -3061,7 +3061,7 @@
         "ranking": 57
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Shining ",
         "originalTitle": "",
         "year": "1980",
@@ -3170,7 +3170,7 @@
         "ranking": 59
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Dark Knight Rises ",
         "originalTitle": "",
         "year": "2012",
@@ -3279,7 +3279,7 @@
         "ranking": 61
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Grave of the Fireflies ",
         "originalTitle": "Hotaru no haka",
         "year": "1988",
@@ -3329,7 +3329,7 @@
         "ranking": 62
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "American Beauty ",
         "originalTitle": "",
         "year": "1999",
@@ -3379,7 +3379,7 @@
         "ranking": 63
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Aliens ",
         "originalTitle": "",
         "year": "1986",
@@ -3532,7 +3532,7 @@
         "ranking": 66
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Old Boy ",
         "originalTitle": "Oldeuboi",
         "year": "2003",
@@ -3860,7 +3860,7 @@
         "ranking": 72
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Star Wars: Episode VI - Return of the Jedi ",
         "originalTitle": "",
         "year": "1983",
@@ -3969,7 +3969,7 @@
         "ranking": 74
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Amélie ",
         "originalTitle": "Le fabuleux destin d'Amélie Poulain",
         "year": "2001",
@@ -4021,7 +4021,7 @@
         "ranking": 75
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Reservoir Dogs ",
         "originalTitle": "",
         "year": "1992",
@@ -4074,7 +4074,7 @@
         "ranking": 76
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Star Wars: Episode VII - The Force Awakens ",
         "originalTitle": "",
         "year": "2015",
@@ -4130,7 +4130,7 @@
         "ranking": 77
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Braveheart ",
         "originalTitle": "",
         "year": "1995",
@@ -4238,7 +4238,7 @@
         "ranking": 79
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Requiem for a Dream ",
         "originalTitle": "",
         "year": "2000",
@@ -4290,7 +4290,7 @@
         "ranking": 80
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Toy Story 3 ",
         "originalTitle": "",
         "year": "2010",
@@ -4347,7 +4347,7 @@
         "ranking": 81
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Taxi Driver ",
         "originalTitle": "",
         "year": "1976",
@@ -4616,7 +4616,7 @@
         "ranking": 86
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Full Metal Jacket ",
         "originalTitle": "",
         "year": "1987",
@@ -4946,7 +4946,7 @@
         "ranking": 92
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Snatch. ",
         "originalTitle": "",
         "year": "2000",
@@ -5058,7 +5058,7 @@
         "ranking": 94
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Toy Story ",
         "originalTitle": "",
         "year": "1995",
@@ -5165,7 +5165,7 @@
         "ranking": 96
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Inglourious Basterds ",
         "originalTitle": "",
         "year": "2009",
@@ -5550,7 +5550,7 @@
         "ranking": 103
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Indiana Jones and the Last Crusade ",
         "originalTitle": "",
         "year": "1989",
@@ -5761,7 +5761,7 @@
         "ranking": 107
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Scarface ",
         "originalTitle": "",
         "year": "1983",
@@ -5861,7 +5861,7 @@
         "ranking": 109
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Batman Begins ",
         "originalTitle": "",
         "year": "2005",
@@ -6026,7 +6026,7 @@
         "ranking": 112
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Unforgiven ",
         "originalTitle": "",
         "year": "1992",
@@ -6238,7 +6238,7 @@
         "ranking": 116
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Good Will Hunting ",
         "originalTitle": "",
         "year": "1997",
@@ -6403,7 +6403,7 @@
         "ranking": 119
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Die Hard ",
         "originalTitle": "",
         "year": "1988",
@@ -6571,7 +6571,7 @@
         "ranking": 122
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Heat ",
         "originalTitle": "",
         "year": "1995",
@@ -7248,7 +7248,7 @@
         "ranking": 135
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Blade Runner ",
         "originalTitle": "",
         "year": "1982",
@@ -7732,7 +7732,7 @@
         "ranking": 144
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Wolf of Wall Street ",
         "originalTitle": "",
         "year": "2013",
@@ -7787,7 +7787,7 @@
         "ranking": 145
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "V for Vendetta ",
         "originalTitle": "",
         "year": "2005",
@@ -7900,7 +7900,7 @@
         "ranking": 147
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Gran Torino ",
         "originalTitle": "",
         "year": "2008",
@@ -8392,7 +8392,7 @@
         "ranking": 156
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Fargo ",
         "originalTitle": "",
         "year": "1996",
@@ -8666,7 +8666,7 @@
         "ranking": 161
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Into the Wild ",
         "originalTitle": "",
         "year": "2007",
@@ -8774,7 +8774,7 @@
         "ranking": 163
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Mad Max: Fury Road ",
         "originalTitle": "",
         "year": "2015",
@@ -8829,7 +8829,7 @@
         "ranking": 164
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Finding Nemo ",
         "originalTitle": "",
         "year": "2003",
@@ -8993,7 +8993,7 @@
         "ranking": 167
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "No Country for Old Men ",
         "originalTitle": "",
         "year": "2007",
@@ -9051,7 +9051,7 @@
         "ranking": 168
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Gone Girl ",
         "originalTitle": "",
         "year": "2014",
@@ -9156,7 +9156,7 @@
         "ranking": 170
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Kill Bill: Vol. 1 ",
         "originalTitle": "",
         "year": "2003",
@@ -9431,7 +9431,7 @@
         "ranking": 175
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Platoon ",
         "originalTitle": "",
         "year": "1986",
