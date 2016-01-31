@@ -9,7 +9,14 @@ credits:
     url: "https://www.flickr.com/photos/manfredi90/7644235724/"
 ---
 
-<p></p>
+<p>
+  This page shows the IMDB Top 250 best movies of all time in January 2016.
+  I intend to watch them all, so far I have a lot to watch!
+</p>
+
+<p>
+  I will update this list every year to include new movies.
+</p>
 
 {% assign progress = 0 %}
 {% for movie in site.data.top250movies.data.movies %}
@@ -35,7 +42,7 @@ credits:
 
   <div class="col-sm-12 col-md-4">
     <div class="thumbnail{% if movie.watched %} watched{% endif %}">
-      <img src="{{ movie.urlPoster }}" alt="{{ movie.title }}">
+      <img src="/{{ movie.localPosterPath }}" alt="{{ movie.title }}">
       <div class="caption">
         <h4>
           {{ movie.title }}
