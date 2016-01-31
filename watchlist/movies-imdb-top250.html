@@ -1,0 +1,57 @@
+---
+layout: page
+title: IMDB Top 250
+description: Movies I watched or need to watch
+permalink: /watchlist/movies-imdb-top250/
+"header-img": "assets/images/headers/top250.jpg"
+credits:
+  - name: manfredi90
+    url: "https://www.flickr.com/photos/manfredi90/7644235724/"
+---
+
+<p></p>
+
+{% assign progress = 0 %}
+{% for movie in site.data.top250movies.data.movies %}
+  {% if movie.watched %}
+  {% capture progress %}{{ progress | plus:1 }}{% endcapture %}
+  {% endif%}
+{% endfor %}
+
+{% capture progress %}{{ progress | divided_by: 2.5 }}{% endcapture %}
+
+<div class="row">
+  <div class="col-xs-12">
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: {{ progress }}%">
+        <span class="">{{ progress }}% Watched</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+{% for movie in site.data.top250movies.data.movies %}
+
+  <div class="col-sm-12 col-md-4">
+    <div class="thumbnail{% if movie.watched %} watched{% endif %}">
+      <img src="{{ movie.urlPoster }}" alt="{{ movie.title }}">
+      <div class="caption">
+        <h4>
+          {{ movie.title }}
+          {% if movie.watched %}
+            <span class="label label-success"><i class="fa fa-check"></i> watched</span>
+          {% endif %}
+        </h4>
+        <ul>
+					<li><i class="fa fa-calendar-o"></i> {{ movie.year }}</li>
+        	<li><i class="fa fa-clock-o"></i> {{ movie.runtime }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+	{% cycle '', '', '<hr style="clear:both; margin: 45px 36px;">' %}
+
+{% endfor%}
+</div>
