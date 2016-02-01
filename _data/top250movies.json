@@ -10363,7 +10363,7 @@
         "localPosterPath": "assets/images/movies/amores-perros.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Million Dollar Baby ",
         "originalTitle": "",
         "year": "2004",
@@ -10528,7 +10528,7 @@
         "localPosterPath": "assets/images/movies/annie-hall.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Ben-Hur ",
         "originalTitle": "",
         "year": "1959",
@@ -10790,7 +10790,7 @@
         "localPosterPath": "assets/images/movies/nausica-of-the-valley-of-the-wind.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Martian ",
         "originalTitle": "",
         "year": "2015",
@@ -10952,7 +10952,7 @@
         "localPosterPath": "assets/images/movies/diabolique.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Jurassic Park ",
         "originalTitle": "",
         "year": "1993",
@@ -11121,7 +11121,7 @@
         "localPosterPath": "assets/images/movies/8.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Bourne Ultimatum ",
         "originalTitle": "",
         "year": "2007",
@@ -11340,7 +11340,7 @@
         "localPosterPath": "assets/images/movies/the-best-years-of-our-lives.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Sin City ",
         "originalTitle": "",
         "year": "2005",
@@ -11506,7 +11506,7 @@
         "localPosterPath": "assets/images/movies/strangers-on-a-train.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Terminator ",
         "originalTitle": "",
         "year": "1984",
@@ -11618,7 +11618,7 @@
         "localPosterPath": "assets/images/movies/twelve-monkeys.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Rocky ",
         "originalTitle": "",
         "year": "1976",
@@ -11771,7 +11771,7 @@
         "localPosterPath": "assets/images/movies/memories-of-murder.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Groundhog Day ",
         "originalTitle": "",
         "year": "1993",
@@ -11828,7 +11828,7 @@
         "localPosterPath": "assets/images/movies/groundhog-day.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Monsters, Inc. ",
         "originalTitle": "",
         "year": "2001",
@@ -11889,7 +11889,7 @@
         "localPosterPath": "assets/images/movies/monsters-inc.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Harry Potter and the Deathly Hallows: Part 2 ",
         "originalTitle": "",
         "year": "2011",
@@ -11944,7 +11944,7 @@
         "localPosterPath": "assets/images/movies/harry-potter-and-the-deathly-hallows-part-2.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Jaws ",
         "originalTitle": "",
         "year": "1975",
@@ -11997,7 +11997,7 @@
         "localPosterPath": "assets/images/movies/jaws.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Infernal Affairs ",
         "originalTitle": "Mou gaan dou",
         "year": "2002",
@@ -12107,7 +12107,7 @@
         "localPosterPath": "assets/images/movies/the-battle-of-algiers.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Avengers ",
         "originalTitle": "",
         "year": "2012",
@@ -12223,7 +12223,7 @@
         "localPosterPath": "assets/images/movies/barry-lyndon.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "La Haine ",
         "originalTitle": "La haine",
         "year": "1995",
@@ -12484,7 +12484,7 @@
         "localPosterPath": "assets/images/movies/ip-man.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Imitation Game ",
         "originalTitle": "",
         "year": "2014",
@@ -12541,7 +12541,7 @@
         "localPosterPath": "assets/images/movies/the-imitation-game.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Prisoners ",
         "originalTitle": "",
         "year": "2013",
@@ -12647,7 +12647,7 @@
         "localPosterPath": "assets/images/movies/the-king-s-speech.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Guardians of the Galaxy ",
         "originalTitle": "",
         "year": "2014",
@@ -12758,7 +12758,7 @@
         "localPosterPath": "assets/images/movies/high-noon.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Pirates of the Caribbean: The Curse of the Black Pearl ",
         "originalTitle": "",
         "year": "2003",
@@ -13128,7 +13128,7 @@
         "localPosterPath": "assets/images/movies/who-s-afraid-of-virginia-woolf.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Catch Me If You Can ",
         "originalTitle": "",
         "year": "2002",
@@ -13185,7 +13185,7 @@
         "localPosterPath": "assets/images/movies/catch-me-if-you-can.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Beauty and the Beast ",
         "originalTitle": "",
         "year": "1991",
