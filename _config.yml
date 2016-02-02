@@ -13,9 +13,12 @@ github_username:  julienbourdeau
 linkedin_username:  julienbourdeau
 youtube_username:  julienbourdeau
 
-# Build settings
 markdown: kramdown
-highlighter: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
@@ -32,3 +35,4 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-mentions
+  - jekyll-paginate
