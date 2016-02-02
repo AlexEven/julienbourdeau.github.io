@@ -31,9 +31,9 @@ I cannot explain what went wrong, I edited the file with VIM to change some path
 At the end the command “ushare” was still using the file in /etc/init.d/ushare so I edited this one as well. Now its working pretty well except it’s not starting the server at boot. *sudo update-rc.d ushare defaults* isn’t working. I tried to use the graphical interface to execute the following command at boot but it failed. It’s still working with MP4 but I have to start the server manually.
 
 
-{% highlight sh %}
+```bash
 /usr/local/etc/init.d/ushare start
-{% endhighlight %}
+```
 
 
 Tonight all I can think about is that I didn’t uninstall ushare correctly before compiling it myself.

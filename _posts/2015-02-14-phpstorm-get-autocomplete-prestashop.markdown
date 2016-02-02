@@ -27,18 +27,21 @@ If you use PhpStorm and PrestaShop you probably noticed that you can't get your
 PrestaShop is designed to be overridden, and every class from the core is suffixed with 'Core'.
 
 For example, Address class is actually declared this way:
-{% highlight php startinline=true %}
+
+```php
+<?php
 class AddressCore extends ObjectModel
 {
   // ...
 }
-{% endhighlight %}
+```
 
 So I have generated a file that extends each class with the correct name
 
-{% highlight php startinline=true %}
+```php
+<?php
 class Address extends AddressCore {}
-{% endhighlight %}
+```
 
 ## Configure PhpStorm with PrestaShop
 

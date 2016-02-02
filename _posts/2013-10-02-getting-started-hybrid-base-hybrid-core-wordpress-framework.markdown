@@ -108,7 +108,7 @@ Underscores is very similar to Hybrid Base but after using it, I feel like there
 
 ![The first thing you get with your started theme (_s or Hybrid Base)](/assets/images/content/2013/La_Boucherie_Bio__Un_site_utilisant_WordPress-680x371.png)
 
-The first thing you get with your started theme (_s or Hybrid Base)[/caption]
+The first thing you get with your started theme (`_s` or Hybrid Base)[/caption]
 
 ### Shall I use a parent theme?
 
@@ -130,21 +130,21 @@ I assume that you have basic knowledge about Git. You have it installed and you 
 
 The easiest way. In your terminal, navigate to wp-content/themes/ and clone the repo.
 
-{% highlight sh %}
+```bash
 git clone https://github.com/justintadlock/hybrid-base.git
-{% endhighlight %}
+```
 
 This is not ready yet, the Library folder is empty. It is where you are meant to copy Hybrid Core. Like I said before, Hybrid Base does not work without Hybrid Core. Luckily Git has a feature call submodules. [Submodules](http://git-scm.com/book/en/Git-Tools-Submodules) let you clone a repo inside a cloned repo.
 
 [icon icon="book" white=""] So we cloned Hybrid Base into the *hybrid-base* folder, we will now clone Hybrid Core into the *hybrid-base/library* folder, using *git submodule*.
 
-{% highlight sh %}
+```shell
 git submodule init
-{% endhighlight %}
+```
 
-{% highlight sh %}
+```bash
 git submodule update[/cc_bash]
-{% endhighlight %}
+```
 
 You should get something like that:
 
@@ -164,9 +164,9 @@ Follow these simple steps:
 1. Add the git submodule for Hybrid Core using the following command
 1. Commit
 
-{% highlight sh %}
+```bash
 git submodule add _https://github.com/justintadlock/hybrid-core.git_ library[/cc_bash]
-{% endhighlight %}
+```
 
 You should get something like this:
 
@@ -242,4 +242,3 @@ _Error message_:
 </tr>
 </tbody>
 </table>
-

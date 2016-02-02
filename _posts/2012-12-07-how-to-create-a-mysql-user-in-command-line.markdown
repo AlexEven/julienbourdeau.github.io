@@ -13,9 +13,9 @@ question-desc: When you are setting up your MySQL you need to create new users. 
 
 First create your database if it's not done yet. Then create your mysql user.
 
-{% highlight mysql %}
+```sql
 create database mynewdb;
-{% endhighlight %}
+```
 
 What you need to replace:
 
@@ -27,18 +27,18 @@ What you need to replace:
 
 ### A user who can access all tables in a given database
 
-{% highlight mysql %}
+```sql
 grant all privileges on mynewdb.* to 'user1'@'localhost' identified by "@s3cur3PWD";
-{% endhighlight %}
+```
 
 ### A user who can access all databases
 
-{% highlight mysql %}
+```mysql
 grant all privileges on *.* to 'user1'@'localhost' identified by "@s3cur3PWD";
-{% endhighlight %}
+```
 
 ### A user who can access a given table in a given database
 
-{% highlight mysql %}
+```sql
 grant all privileges on mynewdb.some_table to 'user1'@'localhost' identified by "@s3cur3PWD";
-{% endhighlight %}
+```
