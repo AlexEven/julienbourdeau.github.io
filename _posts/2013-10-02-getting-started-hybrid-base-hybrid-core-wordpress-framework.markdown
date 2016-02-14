@@ -136,7 +136,7 @@ git clone https://github.com/justintadlock/hybrid-base.git
 
 This is not ready yet, the Library folder is empty. It is where you are meant to copy Hybrid Core. Like I said before, Hybrid Base does not work without Hybrid Core. Luckily Git has a feature call submodules. [Submodules](http://git-scm.com/book/en/Git-Tools-Submodules) let you clone a repo inside a cloned repo.
 
-[icon icon="book" white=""] So we cloned Hybrid Base into the *hybrid-base* folder, we will now clone Hybrid Core into the *hybrid-base/library* folder, using *git submodule*.
+<i class="fa fa-book"></i> So we cloned Hybrid Base into the *hybrid-base* folder, we will now clone Hybrid Core into the *hybrid-base/library* folder, using *git submodule*.
 
 ```shell
 git submodule init
