@@ -17,13 +17,13 @@ I looked for a solution online, I thought it was a problem with apache2 modules 
 
 I created the folder *vsftpd*, I created the empty file *passwd*.
 
-{% highlight sh %}
+```bash
 sudo vim /etc/vsftpd/passwd
 sudo htpasswd /etc/vsftpd/passwd julien
-{% endhighlight %}
+```
 
 If you get this error **"htpasswd: unable to update file /etc/vsftpd/passwd2"** it because you are missing the sudo.
 
-{% highlight sh %}
+```bash
 sudo htpasswd /etc/vsftpd/passwd julien
-{% endhighlight %}
+```

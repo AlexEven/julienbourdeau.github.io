@@ -39,9 +39,9 @@ I've been through many tutorials but couldn't find any in full detail, so decide
 
 I wanted to create FTP users but I didn't want to add local unix users (no shell access, no home directory and so on). A PAM (**Pluggable Authentication Modules)** will help you create virtual users.
 
-{% highlight sh %}
+```sh
 sudo apt-get install vsftpd libpam-pwdfile
-{% endhighlight %}
+```
 
 
 
@@ -49,19 +49,19 @@ sudo apt-get install vsftpd libpam-pwdfile
 
 First you need to back up the original file
 
-{% highlight sh %}
+```sh
 sudo mv /etc/vsftpd.conf /etc/vsftpd.conf.bak
-{% endhighlight %}
+```
 
 Then create a new one
 
-{% highlight sh %}
+```sh
 sudo vim /etc/vsftpd.conf
-{% endhighlight %}
+```
 
 Copy and paste the following lines. The file **should ONLY contain these lines**:
 
-{% highlight sh %}
+```sh
 
 listen=YES
 anonymous_enable=NO
@@ -77,7 +77,7 @@ chroot_local_user=YES
 hide_ids=YES
 guest_username=vsftpd
 
-{% endhighlight %}
+```
 
 
 
@@ -85,15 +85,15 @@ guest_username=vsftpd
 
 To register a user you use htpasswd, so I assume you have apache2 working on your server. Create a vsftpd folder then put configuration files in it.
 
-{% highlight sh %}
+```sh
 sudo mkdir /etc/vsftpd
-{% endhighlight %}
+```
 
 then
 
-{% highlight sh %}
+```sh
 sudo htpasswd -cd /etc/vsftpd/ftpd.passwd user1
-{% endhighlight %}
+```
 
 * **-c** means that we'll create the file if it's not existing yet
 * **-d** forces MD5, you need it on ubuntu 12.04, just use it always
@@ -101,9 +101,9 @@ The command will prompt for a password.
 
 If you want to add new users afterwards:
 
-{% highlight sh %}
+```sh
 sudo htpasswd -d /etc/vsftpd/ftpd.passwd user2
-{% endhighlight %}
+```
 
 
 
@@ -111,30 +111,30 @@ sudo htpasswd -d /etc/vsftpd/ftpd.passwd user2
 
 Again, you need to back up the orignal file
 
-{% highlight sh %}
+```sh
 sudo mv /etc/pam.d/vsftpd /etc/pam.d/vsftpd.bak
-{% endhighlight %}
+```
 
 and create a new one
 
-{% highlight sh %}
+```sh
 sudo vim /etc/pam.d/vsftpd
-{% endhighlight %}
+```
 
 Copy and paste these 2 lines (this should be the only content). I insist only these 2 lines, I wasted a lot of time keeping the originals and just added these.
 
-{% highlight sh %}
+```sh
 auth required pam_pwdfile.so pwdfile /etc/vsftpd/ftpd.passwd
 account required pam_permit.so
-{% endhighlight %}
+```
 
 
 
 ## 5. Create a local user without shell access
 
-{% highlight sh %}
+```sh
 sudo useradd --home /home/vsftpd --gid nogroup -m --shell /bin/false vsftpd
-{% endhighlight %}
+```
 
 You can check that it's been created with the id command: id vsftpd. We define the user with the /bin/false shell because of the [check_shell parameter](https://security.appspot.com/vsftpd/vsftpd_conf.html) (even if you don't use it).
 
@@ -149,15 +149,15 @@ When the end user  connects to the FTP server, they will be used for rights and
 
 The common way is using init.d like all deamon
 
-{% highlight sh %}
+```sh
 sudo /etc/init.d/vsftpd restart
-{% endhighlight %}
+```
 
 In Ubuntu 12.04 there is something new with services. It worked on my 12.04 but not on my 10.04 one. To be honest I'm not a Linux expert (yet) so I can't explain why. Something to do with *Upstart* I think.
 
-{% highlight sh %}
+```sh
 sudo service vsftpd restart
-{% endhighlight %}
+```
 
 
 
@@ -181,13 +181,13 @@ In vsftpd.conf we have chroot_local_user=YES so the user can't see anything out
 
 So just run these commands:
 
-{% highlight sh %}
+```sh
 mkdir /var/www/user1
 chmod -w /var/www/user1
 mkdir www/user1/www
 chmod -R 755 /var/www/user1/www
 chown -R vsftpd:nogroup /var/www/user1
-{% endhighlight %}
+```
 
 The */var/www/user1* folder HAS TO exist or connection will fail.
 
@@ -203,15 +203,15 @@ To create an admin user we need to register a new user with htpasswd.
 
 Before we do so, I'll advise you to check into the /etc/ftpusers file that define certain users that are **not** allowed to connect with ftp. I think it's only for local users and not virtual users but just in case don't choose a name contained in this file. Let's be honest, vsftpd is complicated enough!
 
-{% highlight sh %}
+```sh
 sudo htpasswd -d /etc/vsftpd/ftpd.passwd theadmin
-{% endhighlight %}
+```
 
 Now we need to add a new line into /etc/vsftpd.conf
 
-{% highlight sh %}
+```sh
 chroot_list_enable=YES
-{% endhighlight %}
+```
 
 This means that your user will be placed into their folder (as a jail) **EXCEPT** users in the **/etc/vsftpd.chroot_list**
 

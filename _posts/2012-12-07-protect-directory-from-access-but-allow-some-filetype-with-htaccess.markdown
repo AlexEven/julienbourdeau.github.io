@@ -16,9 +16,9 @@ question-desc: |
 
 To protect your directory but allow some file extension just put the following code into a file called .htaccess and upload in the folder to protect. In this example I allow only PDF and JPG.
 
-{% highlight sh %}
+``` 
 deny from all
 <FilesMatch "\.(pdf|jpg)$">
 Satisfy Any
 Allow from all
-{% endhighlight %}
+```
