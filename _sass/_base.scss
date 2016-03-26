@@ -39,9 +39,29 @@ ul, ol, dl, figure,
 /**
  * Header
  */
-.navbar-custom .nav li a,
-.post-heading {
+.intro-header-nav.navbar-default .navbar-nav>li>a,
+.intro-header .post-heading {
     text-shadow: 2px 2px 5px rgba(50, 50, 50, 1)
+}
+
+.intro-header-nav.navbar-default .navbar-brand {
+  color: white;
+}
+.intro-header-nav.navbar-default .navbar-brand:hover,
+.intro-header-nav.navbar-default .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+.intro-header-nav.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.intro-header-nav.navbar-default .navbar-nav>li>a:hover,
+.intro-header-nav.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lite-header .post-heading {
+  margin-top: 50px;
+  padding:  1.5 * $spacing-unit 0;
 }
 
 /**
