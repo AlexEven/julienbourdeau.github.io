@@ -723,7 +723,7 @@
         "localPosterPath": "assets/images/movies/forrest-gump.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Inception ",
         "originalTitle": "",
         "year": "2010",
