@@ -2463,7 +2463,7 @@
         "localPosterPath": "assets/images/movies/back-to-the-future.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Memento ",
         "originalTitle": "",
         "year": "2000",
@@ -6904,7 +6904,7 @@
         "localPosterPath": "assets/images/movies/sunrise.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Revenant ",
         "originalTitle": "",
         "year": "2015",
@@ -8882,7 +8882,7 @@
         "localPosterPath": "assets/images/movies/into-the-wild.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Spotlight ",
         "originalTitle": "",
         "year": "2015",
