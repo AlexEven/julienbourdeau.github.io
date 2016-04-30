@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top {% if page.header-img %}intro-header-nav{% endif %}">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -16,13 +16,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ '/' | prepend: site.baseurl }}">Articles</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a href="{{ '/about/' | prepend: site.baseurl }}">About</a>
                 </li>
-                {% endif %}{% endfor %}
+                <li>
+                    <a href="{{ '/watchlist/movies-imdb-top250/' | prepend: site.baseurl }}">IMDB Top 250</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

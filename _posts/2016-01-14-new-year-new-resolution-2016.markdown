@@ -2,7 +2,6 @@
 layout: post
 title: 'New year, new resolution'
 icon: fa-pagelines
-author: Julien Bourdeau
 date: '2016-01-14 14:55:18 +0100'
 header-img: "assets/images/headers/mojiko_train_station.jpg"
 categories:

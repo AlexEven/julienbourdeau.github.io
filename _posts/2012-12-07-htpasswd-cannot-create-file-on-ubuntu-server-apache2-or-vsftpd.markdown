@@ -1,7 +1,6 @@
 ---
 layout: answers
 title: "htpasswd: cannot create file on ubuntu server (Apache2 or vsFTPd)"
-author: Julien Bourdeau
 date: '2012-12-07 21:19:45 +0100'
 date_gmt: '2012-12-07 21:19:45 +0100'
 header-img: "assets/images/headers/warty-final-ubuntu.png"

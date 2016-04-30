@@ -1,7 +1,6 @@
 ---
 layout: answers
 title: Protect directory from access but allow some filetype with .htaccess
-author: Julien Bourdeau
 date: '2012-12-07 20:34:50 +0100'
 date_gmt: '2012-12-07 20:34:50 +0100'
 header-img: "assets/images/headers/warty-final-ubuntu.png"

@@ -1,7 +1,6 @@
 ---
 layout: answers
 title: Wp RSS aggregator no feed items found
-author: Julien Bourdeau
 date: '2013-10-06 18:08:46 +0200'
 date_gmt: '2013-10-06 16:08:46 +0200'
 categories: []

@@ -1,47 +1,42 @@
 ---
-layout: default
+layout: page
+title: Articles
 permalink: /
+redirect_from: /articles/
 ---
 
+{% for post in site.posts  %}
+	{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+	{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                        <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+	{% if forloop.first %}
+	<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+	<ul class="article-list">
+	{% endif %}
 
-<div id="home-content">
-    <div class="container">
+	<li>
+		{% if post.icon %}
+			<i class="fa {{ post.icon }}"></i>
+		{% else %}
+			{% if post.layout == 'post' %}
+				<i class="fa fa-coffee"></i>
+			{% elsif post.layout == 'post_fr' %}
+				<i class="fa fa-thumb-tack"></i>
+			{% else %}
+				<i class="fa fa-life-ring"></i>
+			{% endif %}
+		{% endif %}
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Hi, I’m Julien Bourdeau </h3>
-                <p>I’m a French Entrepreneur who loves web technology and devices. I’m writing this blog in English, it’s usually tutorials related to problems that took me hours to solve .</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <h3>My latest posts</h3>
-                <p>I don't write as much as I wish but here are my latest posts from my blogs</p>
-                {% include external-posts.html %}
-            </div>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
 
-
-            <div class="col-md-4 col-sm-12">
-                <h3>My latest tweets</h3>
-                {% include latest-tweets.html %}
-            </div>
-        </div>
-
-    </div>
-</div>
+	{% if forloop.last %}
+	</ul>
+	{% else %}
+		{% if this_year != next_year %}
+		</ul>
+		<h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+		<ul class="article-list">
+		{% endif %}
+	{% endif %}
+{% endfor %}

@@ -1,7 +1,6 @@
 ---
 layout: answers
 title: 'MPMAN: Install Google Play on MPMAN Tablet (MID74C ANDROID 4.0 ICS ) [ex-AndroidMarket]'
-author: Julien Bourdeau
 date: '2013-09-29 19:13:55 +0200'
 date_gmt: '2013-09-29 17:13:55 +0200'
 categories: []
