@@ -1,0 +1,36 @@
+---
+layout: page
+title: My bucket list
+description: Everything I intend to do before I die
+permalink: /bucket-list/
+"header-img": "assets/images/headers/bucket-list.jpg"
+credits:
+  - name: David Marriott
+    url: "https://www.flickr.com/photos/davidmarriottsydney/15884050211/in/photolist-qcBUJF-gfdfbx-738WyB-eNUE7k-ggPsG9-8FeoXL-RniHU-gaRfc1-9Xot99-8FmkC7-kbxja-9FKHEB-bqCN8S-5E2fLU-eEJGKR-5yqPqa-cUQfZj-gaRGw2-ggPmqG-73AeRG-qKi8BG-nGmLp4-BnaxW-5CBjt-HKktT-kxpBSS-gfdvuE-eEJrQK-nGshrE-gfdect-qsVqie-H8By-4B1rgd-GcQjP-gfdfEt-fadDVH-bmb93A-qsWTuV-n9TZQT-dYbkme-qsNdbm-qsVqsT-fasQkG-9txe1d-qKi8N3-eEJAje-pNnjQh-eEQEdS-6iAmo8-qKnqg8"
+---
+
+
+<p>
+  Here is pretty much everything I'd like to do before I die. To be honest
+  I'd like to get most of the list done by 40. There is nothing
+  crazy, everything that goes here is definitely doable with a minimum of
+  motivation and work.
+</p>
+
+<ul id="bucketlist">
+	{% for item in site.data.bucket-list %}
+		<li id="bucketlist-{{ item.id }}">
+
+			{% if item.status == 'done' %}
+				<i class="fa fa-check"></i>
+			{% elsif item.status == 'wip' %}
+				<i class="fa fa-spinner"></i>
+			{% else %}
+				<i class="fa fa-square-o"></i>
+			{% endif %}
+
+			{{ item.label }}
+
+		</li>
+	{% endfor %}
+</ul>

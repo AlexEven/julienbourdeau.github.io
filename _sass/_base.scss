@@ -314,3 +314,15 @@ footer#footer {
     opacity: 0.4;
   }
 }
+
+ul#bucketlist {
+    list-style-type: none;
+    margin: 60px 0;
+    font-size: 30px;
+    li {
+        margin-bottom: $spacing-unit / 3;
+        i.fa {
+            width: $spacing-unit * 1.5;
+        }
+    }
+}

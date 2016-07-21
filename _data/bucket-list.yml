@@ -1,0 +1,43 @@
+- id: marathon
+  label: Run a full marathon
+  status: wip
+
+- id: scubadive
+  label: Scuba dive
+  status: done
+
+- id: skydive
+  label: Sky dive
+  status: none
+
+- id: montblanc
+  label: Climb the Mont Blanc
+  status: none
+
+- id: moto
+  label: Get a licence to drive a motobike
+  status: none
+
+- id: chinese
+  label: Speak, read and write chinese (at a fair level)
+  status: none
+
+- id: teach
+  label: Teach at university level
+  status: none
+
+- id: publish
+  label: Publish something (like a book)
+  status: none
+
+- id: live-abroad
+  label: Live abroad (at least few months)
+  status: done
+
+- id: live-abroad-2
+  label: Live abroad again (that was too good)
+  status: none
+
+- id: company
+  label: Build a solid company
+  status: none
