@@ -8,7 +8,7 @@
 
 - id: skydive
   label: Sky dive
-  status: none
+  status: done
 
 - id: montblanc
   label: Climb the Mont Blanc
