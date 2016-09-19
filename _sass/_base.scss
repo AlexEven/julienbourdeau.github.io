@@ -168,6 +168,9 @@ strong {
 
 .page-content {
     font-size: $content-font-size;
+    hr {
+      border-bottom: 1px solid $grey-color-light;
+    }
 }
 
 /**
