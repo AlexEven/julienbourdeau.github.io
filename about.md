@@ -9,14 +9,29 @@ published: true
 
 ## About me <small>Julien Bourdeau</small>
 
-Hello I'm Julien Bourdeau and I quite love computers.
+Hello I'm Julien Bourdeau and I love open source.
 
-I went to study Electronics and Cumputer Sciences at *[ESEO](http://www.eseo.fr/international/international-relations/)*, my Engineering School in France. Yeah, in France we go to a sort of school for this, not uni, it's complicated. But at the end your 5 years you still get a Master degree.
+I'm now an open source developer at [PrestaShop][3]. PrestaShop is an ecommerce software that power about
+250 000 online stores. You can have a look at the project [on GitHub][4]. My job is mostly about maintaining
+the project with the community, adding new features and debugging.
 
-In 2010-11, I went to Hong Kong to study at *[City University Of Hong Kong](http://www.cityu.edu.hk/)*. There, I had the opportunity to travel all around Asia (Philippines, Thailand, China, Japan, Vietnam,...) and meet so many people. An amazing life experience, definitely unforgettable.
+---
 
-Once I got my Master in *Multimedia Information Technology*, I went back to France and started to work as a *Business Intelligence Junior Consultant* for IBM. I worked there for few months then I went back to my home town - Nantes - to start my own business.
+Before that I went to study Electronics and Computer Sciences at *[ESEO][1]*, my Engineering School in France. Then in
+2010-11, I moved to Hong Kong to study at *[City University Of Hong Kong][2]*. There, I had the
+opportunity to travel all around Asia (Philippines, Thailand, China, Japan, Vietnam,...) and meet so
+many people. An amazing life experience, definitely unforgettable.
 
-I cofounded "*Côtelettes &amp; Tarte aux Fraises*" which brought e-commerce and cross-canal to small shops (like a butchers, grocery shop, cheese shop,...). Get your quality french food online: [www.cotelettes-tarteauxfraises.com](http://www.cotelettes-tarteauxfraises.com). After about a year and half we decided that the results weren't satisfying I get a new job.
+Once I got my Master in *Multimedia Information Technology*, I went back to France and started to work
+as a *Junior Consultant* for IBM. I worked there for few months then I went back to my home
+town - Nantes - to start my own business.
 
-I'm now a core developer at [PrestaShop](http://www.prestashop.com/). PrestaShop is an ecommerce plateform that power about 200 000 online stores. You can have a look at the project [on this page](https://github.com/PrestaShop/PrestaShop).
+I cofounded "*Côtelettes &amp; Tarte aux Fraises*" which brought e-commerce and cross-canal to small
+shops (like a butchers, grocery shop, cheese shop,...). After about a year and half we decided that the
+results weren't satisfying so I got this great job at PrestaShop.
+
+
+[1]: http://www.eseo.fr/international/international-relations/
+[2]: http://www.cityu.edu.hk/
+[3]: http://www.prestashop.com
+[4]: https://github.com/PrestaShop/PrestaShop
