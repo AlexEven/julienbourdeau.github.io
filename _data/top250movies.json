@@ -5540,7 +5540,7 @@
         "localPosterPath": "assets/images/movies/the-apartment.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Inside Out ",
         "originalTitle": "",
         "year": "2015",
@@ -6294,7 +6294,7 @@
         "localPosterPath": "assets/images/movies/the-hunt.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Up ",
         "originalTitle": "",
         "year": "2009",
@@ -8155,7 +8155,7 @@
         "localPosterPath": "assets/images/movies/a-beautiful-mind.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "The Big Lebowski ",
         "originalTitle": "",
         "year": "1998",
@@ -10419,7 +10419,7 @@
         "localPosterPath": "assets/images/movies/million-dollar-baby.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Shutter Island ",
         "originalTitle": "",
         "year": "2010",
