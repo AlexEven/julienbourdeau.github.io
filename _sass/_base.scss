@@ -15,12 +15,18 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
+    font-size: $base-font-size-sm;
+    line-height: $base-line-height-sm;
     font-weight: 300;
     color: $text-color;
     background-image: url($thm-img-path + "/bg-dots.png");
     -webkit-text-size-adjust: 100%;
+}
+@media (min-width: #{$screen-sm}) {
+  body {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+  }
 }
 
 
@@ -111,7 +117,9 @@ li {
 ul.article-list {
     list-style-type: none;
     li {
-        margin: 16px 0;
+        font-size: $base-font-size-sm * 1.2;
+        line-height: $base-line-height-sm * 1.2;
+        margin: $spacing-unit * 0.3 0;
         i.fa {
             margin-right: 4px;
         }
@@ -123,6 +131,14 @@ ul.article-list {
             text-decoration: none;
         }
     }
+}
+@media (min-width: #{$screen-sm}) {
+  ul.article-list {
+      li {
+          font-size: $base-font-size * 1.2;
+          line-height: $base-line-height * 1.2;
+      }
+  }
 }
 
 ul.external-article-list {
@@ -170,10 +186,15 @@ strong {
 }
 
 .page-content {
-    font-size: $content-font-size;
+    font-size: $content-font-size-sm;
     hr {
       border-bottom: 1px solid $grey-color-light;
     }
+}
+@media (min-width: #{$screen-sm}) {
+  .page-content {
+      font-size: $content-font-size;
+  }
 }
 
 /**
@@ -323,12 +344,17 @@ footer#footer {
 
 ul#bucketlist {
     list-style-type: none;
-    margin: 60px 0;
-    font-size: 30px;
     li {
         margin-bottom: $spacing-unit / 3;
         i.fa {
             width: $spacing-unit * 1.5;
         }
     }
+}
+
+@media (min-width: #{$screen-sm}) {
+  ul#bucketlist {
+    margin: 60px 0;
+    font-size: 30px;
+  }
 }

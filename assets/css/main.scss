@@ -13,12 +13,15 @@ $museo700:  "Museo-700", Georgia, "Times New Roman", Times, serif;
 
 
 // Our variables
-$base-font-family: 		$museo300;
-$strong-font-family: 	$museo500;
-$base-font-size:   		16px;
-$content-font-size: 	21px;
-$small-font-size:  		$base-font-size * 0.875;
-$base-line-height: 		1.5;
+$base-font-family:      $museo300;
+$strong-font-family:    $museo500;
+$base-font-size:        16px;
+$base-font-size-sm:     14px;
+$content-font-size:     21px;
+$content-font-size-sm:  16px;
+$small-font-size:       $base-font-size * 0.875;
+$base-line-height:      1.5;
+$base-line-height-sm:   1.3;
 
 $spacing-unit:     30px;
 
@@ -45,71 +48,71 @@ $laptop:           800px;
 //     }
 // }
 @mixin media-query($device) {
-	@media screen and (max-width: $device) {
-		@content;
-	}
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"fonts",
-	"fontawesome/font-awesome",
+  "fonts",
+  "fontawesome/font-awesome",
 
-	// Core variables and mixins
-	"bootstrap/variables",
-	"bootstrap/mixins",
+  // Core variables and mixins
+  "bootstrap/variables",
+  "bootstrap/mixins",
 
-	// Reset and dependencies
-	"bootstrap/normalize",
-	"bootstrap/print",
-	//"bootstrap/glyphicons",
+  // Reset and dependencies
+  "bootstrap/normalize",
+  "bootstrap/print",
+  //"bootstrap/glyphicons",
 
-	// Core CSS
-	"bootstrap/scaffolding",
-	"bootstrap/type",
-	//"bootstrap/code",
-	"bootstrap/grid",
-	"bootstrap/tables",
-	"bootstrap/forms",
-	"bootstrap/buttons",
+  // Core CSS
+  "bootstrap/scaffolding",
+  "bootstrap/type",
+  //"bootstrap/code",
+  "bootstrap/grid",
+  "bootstrap/tables",
+  "bootstrap/forms",
+  "bootstrap/buttons",
 
-	// Components
-	"bootstrap/component-animations",
-	//"bootstrap/dropdowns",
-	"bootstrap/button-groups",
-	"bootstrap/input-groups",
-	"bootstrap/navs",
-	"bootstrap/navbar",
-	//"bootstrap/breadcrumbs",
-	"bootstrap/pagination",
-	"bootstrap/pager",
-	"bootstrap/labels",
-	"bootstrap/badges",
-	"bootstrap/jumbotron",
-	"bootstrap/thumbnails",
-	"bootstrap/alerts",
-	"bootstrap/progress-bars",
-	//"bootstrap/media",
-	"bootstrap/list-group",
-	//"bootstrap/panels",
-	"bootstrap/responsive-embed",
-	//"bootstrap/wells",
-	"bootstrap/close",
+  // Components
+  "bootstrap/component-animations",
+  //"bootstrap/dropdowns",
+  "bootstrap/button-groups",
+  "bootstrap/input-groups",
+  "bootstrap/navs",
+  "bootstrap/navbar",
+  //"bootstrap/breadcrumbs",
+  "bootstrap/pagination",
+  "bootstrap/pager",
+  "bootstrap/labels",
+  "bootstrap/badges",
+  "bootstrap/jumbotron",
+  "bootstrap/thumbnails",
+  "bootstrap/alerts",
+  "bootstrap/progress-bars",
+  //"bootstrap/media",
+  "bootstrap/list-group",
+  //"bootstrap/panels",
+  "bootstrap/responsive-embed",
+  //"bootstrap/wells",
+  "bootstrap/close",
 
-	// Components w/ JavaScript
-	"bootstrap/modals",
-	"bootstrap/tooltip",
-	"bootstrap/popovers",
-	//"bootstrap/carousel",
+  // Components w/ JavaScript
+  "bootstrap/modals",
+  "bootstrap/tooltip",
+  "bootstrap/popovers",
+  //"bootstrap/carousel",
 
-	// Utility classes
-	"bootstrap/utilities",
-	"bootstrap/responsive-utilities",
+  // Utility classes
+  "bootstrap/utilities",
+  "bootstrap/responsive-utilities",
 
-	//"layout",
-	"flags",
-	"clean-blog",
-	"syntax-highlighting",
-	"base"
+  //"layout",
+  "flags",
+  "clean-blog",
+  "syntax-highlighting",
+  "base"
 ;
