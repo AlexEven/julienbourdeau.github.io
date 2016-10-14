@@ -1,26 +1,23 @@
 /* =Fonts
 -------------------------------------------------------------- */
 
-@mixin font-face($style-name, $file, $family:"", $category:"") {
-    $filepath: $thm-fonts-path + "/" + $family + "/" + $file;
+@mixin font-face($font-name, $weight, $style, $file, $extra:"") {
+    $filepath: $thm-fonts-path + "/" + $file;
     @font-face {
-        font-family: "#{$style-name}";
-        src: url($filepath + ".eot");
-        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
-    }
-    %#{$style-name} {
-        font: {
-            @if $category != "" {
-                family: "#{$style-name}", #{$category};
-            }
-            @else {
-                family: "#{$style-name}";
-                weight: normal;
-            }
-        }
+        font-family: "#{$font-name}";
+        src: url($filepath + ".ttf")  format('truetype');
+        font-weight: $weight;
+        font-style: $style;
     }
 }
 
-@include font-face('Museo-300', '2429BD_1_0', 'museo', 'serif');
-@include font-face('Museo-500', '2429BD_2_0', 'museo', 'serif');
-@include font-face('Museo-700', '2429BD_0_0', 'museo', 'serif');
+// @include font-face('Roboto', 100, 'italic', 'roboto/Roboto-ThinItalic');
+// @include font-face('Roboto', 100, 'normal', 'roboto/Roboto-Thin');
+@include font-face('Roboto', 300, 'italic', 'roboto/Roboto-LightItalic');
+@include font-face('Roboto', 300, 'normal', 'roboto/Roboto-Light');
+@include font-face('Roboto', 400, 'italic', 'roboto/Roboto-Italic');
+@include font-face('Roboto', 400, 'normal', 'roboto/Roboto-Regular');
+@include font-face('Roboto', 500, 'italic', 'roboto/Roboto-BoldItalic');
+@include font-face('Roboto', 500, 'normal', 'roboto/Roboto-Bold');
+// @include font-face('Roboto', 700, 'italic', 'roboto/Roboto-BlackItalic');
+// @include font-face('Roboto', 700, 'normal', 'roboto/Roboto-Black');

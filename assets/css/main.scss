@@ -7,14 +7,9 @@ $thm-img-path: '../images/theme';
 $thm-fonts-path: '/assets/fonts';
 $fa-font-path: '/assets/fonts/fontawesome';
 
-$museo300:  "Museo-300", Georgia, "Times New Roman", Times, serif;
-$museo500:  "Museo-500", Georgia, "Times New Roman", Times, serif;
-$museo700:  "Museo-700", Georgia, "Times New Roman", Times, serif;
-
-
 // Our variables
-$base-font-family:      $museo300;
-$strong-font-family:    $museo500;
+$base-font-family:      Roboto, Arial, sans-serif;
+$heading-font-family:   Georgia, Times, serif;
 $base-font-size:        16px;
 $base-font-size-sm:     14px;
 $content-font-size:     21px;
