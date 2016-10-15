@@ -11562,7 +11562,7 @@
         "localPosterPath": "assets/images/movies/the-terminator.jpg"
       },
       {
-        "watched": false,
+        "watched": true,
         "title": "Twelve Monkeys ",
         "originalTitle": "",
         "year": "1995",
