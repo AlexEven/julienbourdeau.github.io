@@ -41,7 +41,7 @@ redirect-from: /watchlist/
 <div class="row">
 {% for movie in site.data.top250movies.data.movies %}
 
-  <div class="col-sm-12 col-md-4">
+  <div class="col-xs-12 col-sm-6 col-md-4">
     <div class="thumbnail{% if movie.watched %} watched{% endif %}">
       <img src="/{{ movie.localPosterPath }}" alt="{{ movie.title }}">
       <div class="caption">
