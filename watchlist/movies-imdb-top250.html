@@ -42,7 +42,7 @@ redirect-from: /watchlist/
 {% for movie in site.data.top250movies.data.movies %}
 
   <div class="col-xs-12 col-sm-6 col-md-4">
-    <div class="thumbnail{% if movie.watched %} watched{% endif %}">
+    <div class="movieitem thumbnail{% if movie.watched %} watched{% endif %}">
       <img src="/{{ movie.localPosterPath }}" alt="{{ movie.title }}">
       <div class="caption">
         <h4>
@@ -58,8 +58,6 @@ redirect-from: /watchlist/
       </div>
     </div>
   </div>
-
-	{% cycle '', '', '<hr style="clear:both; margin: 45px 36px;">' %}
 
 {% endfor%}
 </div>
