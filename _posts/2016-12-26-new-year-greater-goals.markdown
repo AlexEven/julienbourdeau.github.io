@@ -46,7 +46,7 @@ The other thing is that I will have to watch even more what I eat, and especiall
 
 <h2><i class="fa fa-code"></i>  Be amazing at my new job</h2>
 
-After 3 years at PrestaShop, I'm moving to a new adventure and I am very excited about it. The product is great and leading its market but even better, the company is everything I wanted. They built their culture based on the book [*Freedom Inc*](https://www.amazon.com/Freedom-Inc-Employees-Business-Productivity/dp/0307409384/ref=sr_1_1?s=books&ie=UTF8&qid=1482766731&sr=1-1&keywords=freedom+inc) which develop the idea that people do a better job when they care and when they freed from micro-management.
+After 3 years at PrestaShop, I'm moving to a new adventure and I am very excited about it. The product is great and leading its market but even better, the company is everything I wanted. They built their culture based on the book [*Freedom Inc*](https://www.amazon.com/Freedom-Inc-Employees-Business-Productivity/dp/0307409384/ref=sr_1_1?s=books&ie=UTF8&qid=1482766731&sr=1-1&keywords=freedom+inc) which develop the idea that people do a better job when they care and when they're freed from micro-management.
 
 I'll pour everything I have in this job and I believe in return, it will make me a better engineer and a better coworker in the end. Basically, a better person.
 
