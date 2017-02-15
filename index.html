@@ -10,7 +10,7 @@ redirect_from: /articles/
 	{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
 	{% if forloop.first %}
-	<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+	<h2 id="{{ this_year }}-ref" class="year">{{this_year}}</h2>
 	<ul class="article-list">
 	{% endif %}
 
@@ -35,7 +35,7 @@ redirect_from: /articles/
 	{% else %}
 		{% if this_year != next_year %}
 		</ul>
-		<h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+		<h2 id="{{ next_year }}-ref" class="year">{{next_year}}</h2>
 		<ul class="article-list">
 		{% endif %}
 	{% endif %}

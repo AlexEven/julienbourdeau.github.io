@@ -3,6 +3,7 @@ layout: post
 title: '2017 New year resolutions and greater goals'
 icon: fa-pagelines
 date: '2016-12-26 15:55:18 +0100'
+header-img: "assets/images/headers/resolutions-2017-nb.jpg"
 categories:
 - My-life
 ---
