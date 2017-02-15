@@ -132,6 +132,12 @@ ul.article-list {
         }
     }
 }
+
+@media only screen and (min-width: 768px) {
+  .year {
+    font-size: 40px;
+  }
+}
 @media (min-width: #{$screen-sm}) {
   ul.article-list {
       li {
@@ -177,7 +183,7 @@ h4 {
  * Paragraphes
  */
 p {
-  line-height: 1.5;
+  line-height: 1.4;
   margin: 30px 0;
 }
 
