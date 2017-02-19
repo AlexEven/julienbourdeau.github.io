@@ -3,7 +3,7 @@ layout: answers
 title: "htpasswd: cannot create file on ubuntu server (Apache2 or vsFTPd)"
 date: '2012-12-07 21:19:45 +0100'
 date_gmt: '2012-12-07 21:19:45 +0100'
-header-img: "assets/images/headers/warty-final-ubuntu.png"
+image: "assets/images/headers/warty-final-ubuntu.png"
 categories: []
 tags: []
 question: "Why do I get this error: htpasswd: unable to update file /etc/vsftpd/passwd2"

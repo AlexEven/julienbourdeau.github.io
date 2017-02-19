@@ -1,17 +1,31 @@
 # Site settings
 title: Sigerr
 email: julien@sigerr.org
-description: "Thoughts. Snippets. Life."
+subtitle: "Thoughts. Snippets. Life."
+description: "My thought and life stories as an software engineer who's passionate about open source"
 baseurl: ""
 url: "http://www.sigerr.org"
 
-header-img: "assets/images/theme/home.jpg"
+image: "assets/images/theme/home.jpg"
 google-analytics: "UA-13064797-1"
 
-twitter_username: julienbourdeau
-github_username:  julienbourdeau
-linkedin_username:  julienbourdeau
-youtube_username:  julienbourdeau
+author:
+  twitter: benbalter
+  github:  julienbourdeau
+  linkedin:  julienbourdeau
+  youtube:  julienbourdeau
+
+social:
+  name: Julien Bourdeau
+  links:
+    - https://twitter.com/julienbourdeau
+    - https://www.facebook.com/julienbourdeau
+    - https://www.linkedin.com/in/julienbourdeau
+    - https://plus.google.com/+JulienBourdeau
+    - https://github.com/julienbourdeau
+    - https://keybase.io/julienbourdeau
+
+google_site_verification: 6PX-IP_XFvIy3-j9-BaW80C9gJcx__oN7Ho429fqTvs
 
 markdown: kramdown
 kramdown:
@@ -38,3 +52,4 @@ gems:
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag

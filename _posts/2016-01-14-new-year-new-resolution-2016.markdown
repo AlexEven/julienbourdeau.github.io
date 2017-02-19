@@ -3,7 +3,7 @@ layout: post
 title: 'New year, new resolution'
 icon: fa-pagelines
 date: '2016-01-14 14:55:18 +0100'
-header-img: "assets/images/headers/mojiko_train_station.jpg"
+image: "assets/images/headers/mojiko_train_station.jpg"
 categories:
 - My-life
 credits:

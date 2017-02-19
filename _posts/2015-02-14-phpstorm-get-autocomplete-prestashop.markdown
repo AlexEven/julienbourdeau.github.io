@@ -6,7 +6,7 @@ title: 'PhpStorm: get autocomplete for PrestaShop'
 icon: fa-code-fork
 date: '2015-02-14 14:55:18 +0100'
 date_gmt: '2015-02-14 13:55:18 +0100'
-header-img: "assets/images/headers/PhpStorm-PrestaShop.png"
+image: "assets/images/headers/PhpStorm-PrestaShop.png"
 categories:
 - PhpStorm
 tags:

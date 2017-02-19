@@ -3,7 +3,7 @@ layout: answers
 title: Protect directory from access but allow some filetype with .htaccess
 date: '2012-12-07 20:34:50 +0100'
 date_gmt: '2012-12-07 20:34:50 +0100'
-header-img: "assets/images/headers/warty-final-ubuntu.png"
+image: "assets/images/headers/warty-final-ubuntu.png"
 categories: []
 tags: []
 question: How do I protect some file extension from visitors

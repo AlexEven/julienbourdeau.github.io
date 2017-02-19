@@ -5,4 +5,4 @@ bower_components
 .tweet-cache
 _gist_cache
 .ruby-version
-
+.jekyll-metadata

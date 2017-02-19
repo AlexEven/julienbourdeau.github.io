@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-description: This is what I do.
+description: Some details about what I do as an open source software developer.
 permalink: /about/
-"header-img": "assets/images/headers/about-bg-2.jpg"
+image: /assets/images/headers/about-bg-2.jpg
 published: true
 ---
 

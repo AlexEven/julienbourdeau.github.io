@@ -4,7 +4,7 @@ title: "[Ubuntu] uShare Deamon doesn’t start"
 icon: fa-linux
 date: '2012-12-07 19:33:30 +0100'
 date_gmt: '2012-12-07 19:33:30 +0100'
-header-img: "assets/images/headers/warty-final-ubuntu.png"
+image: "assets/images/headers/warty-final-ubuntu.png"
 categories: []
 tags: []
 comment: 'off'

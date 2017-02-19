@@ -3,7 +3,7 @@ layout: post
 title: Setup VSFTPD with custom multiple directories and (virtual) users accounts
   on Ubuntu (no database required)
 icon: fa-server
-header-img: "assets/images/headers/vsftpd-cluster.jpg"
+image: "assets/images/headers/vsftpd-cluster.jpg"
 date: '2012-06-03 16:52:40 +0200'
 date_gmt: '2012-06-03 16:52:40 +0200'
 categories:
