@@ -4,3 +4,5 @@ bower_components
 .sass-cache
 .tweet-cache
 _gist_cache
+.ruby-version
+
