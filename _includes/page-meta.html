@@ -2,20 +2,22 @@
 
 <div class="article-meta">
   {% if page.date %}
-    <span class="meta"><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%B %-d, %Y" }}</span><br />
+    <span class="meta"><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%B %-d, %Y" }}</span><br>
   {% endif %}
 
-  <span class="meta"><i class="fa fa-user"></i>&nbsp; By Julien Bourdeau</span><br />
+  <span class="meta"><i class="fa fa-user"></i>&nbsp; By Julien Bourdeau</span><br>
 
   {% if page.french %}
-    <span class="meta"><i class="fa fa-flag-checkered"></i>&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br />
+    <span class="meta"><i class="fa fa-flag-checkered"></i>&nbsp; This article is also <a href="{{ page.french}}">available in French</a></span><br>
   {% endif %}
 
   {% if page.credits %}
     {% for c in page.credits %}
-      <i class="fa fa-magic"></i> Photo by: <a href="{{ c.url }}">{{ c.name }}</a>
+      <i class="fa fa-magic"></i> Photo by: <a href="{{ c.url }}">{{ c.name }}</a><br>
     {% endfor %}
   {% endif %}
+
+  <i class="fa fa-sort"></i> {{ page.content | number_of_words }} words
 </div>
 
 {% endif %}
