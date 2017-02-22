@@ -6,24 +6,24 @@ layout: default
 
 <!-- Post Content -->
 <article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                {% include page-meta.html %}
+        {% include page-meta.html %}
 
-				{% include page-btns.html %}
+        {% include page-btns.html %}
 
-				{% include page-content.html %}
+        {% include page-content.html %}
 
-                {% include page-pager.html %}
+        {% include page-pager.html %}
 
-            </div>
-        </div>
-
-        {% if page.comment != 'off' %}
-                {% include disqus.html %}
-        {% endif %}
-
+      </div>
     </div>
+
+    {% if page.comment != 'off' %}
+      {% include disqus.html %}
+    {% endif %}
+
+  </div>
 </article>
