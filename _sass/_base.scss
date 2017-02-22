@@ -179,6 +179,15 @@ h4 {
     margin-top: .7 * $spacing-unit;
 }
 
+.anchorjs-link {
+  transition: all .25s linear;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none;
+  color: $text-muted;
+}
+
 /**
  * Paragraphes
  */
