@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 months with the new MacBook Pro (with TouchBar)
-subtitle: What it worth waiting 4 years?
+subtitle: Was it worth waiting 4 years?
 icon: fa-laptop
 date: '2017-05-22'
 #image: ""
