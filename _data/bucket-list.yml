@@ -1,6 +1,6 @@
 - id: marathon
-  label: Run a full marathon
-  status: wip
+  label: Run a marathon <small>4h20m03s</small>
+  status: done
 
 - id: scubadive
   label: Scuba dive
@@ -9,6 +9,10 @@
 - id: skydive
   label: Sky dive
   status: done
+
+- id: iron-man
+  label: Finish an Iron Man
+  status: none
 
 - id: montblanc
   label: Climb the Mont Blanc
@@ -19,7 +23,7 @@
   status: none
 
 - id: chinese
-  label: Speak, read and write chinese (at a fair level)
+  label: Speak, read and write chinese at a fair level
   status: none
 
 - id: teach
@@ -27,17 +31,21 @@
   status: none
 
 - id: publish
-  label: Publish something (like a book)
+  label: Publish something significant
   status: none
 
 - id: live-abroad
-  label: Live abroad (at least few months)
+  label: Live abroad <small>Hong Kong</small>
   status: done
 
-- id: live-abroad-2
-  label: Live abroad again (that was too good)
+- id: travel-the-word
+  label: Travel for over a year
   status: none
 
 - id: company
-  label: Build a solid company
+  label: Start a solid company
+  status: none
+
+- id: shelter
+  label: Build a shelter
   status: none
