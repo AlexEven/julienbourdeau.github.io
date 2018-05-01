@@ -1,19 +1,19 @@
 /**
  * Syntax highlighting styles
  */
-.highlight pre code * {
+pre.highlight pre code * {
   white-space: nowrap;    // this sets all children inside to nowrap
 }
 
-.highlight pre {
+pre.highlight pre {
   overflow-x: auto;       // this sets the scrolling in x
 }
 
-.highlight pre code {
+pre.highlight pre code {
   white-space: pre;       // forces <code> to respect <pre> formatting
 }
 
-.highlight {
+pre.highlight {
     // background-color: #f7f7f7;
     // color: #333333;
     padding: 28px 22px;
@@ -23,7 +23,7 @@
     background-image: linear-gradient(#EEE .1em, transparent .1em);
     background-size: 100% 1.6em;
     line-height: 1.6em;
-    
+
     .hll { background-color: #ffffcc }
     .c { color: #999988; font-style: italic } /* Comment */
     .err { color: #a61717; background-color: #e3d2d2 } /* Error */
