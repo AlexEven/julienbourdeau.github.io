@@ -45,7 +45,7 @@ sass:
         - _sass
     style: compressed
 
-gems:
+plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
