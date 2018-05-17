@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://www.sigerr.org"
 
 image: "assets/images/theme/home.jpg"
-google-analytics: "UA-13064797-1"
+google_analytics: "UA-13064797-1"
 
 author:
   twitter: benbalter
